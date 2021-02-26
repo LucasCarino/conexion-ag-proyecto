@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Index from './components/Index';
+import Ideas from './components/Ideas';
+import IdeasItem from './components/IdeasItem';
+import Nosotros from './components/Nosotros';
+import Trabajos from './components/Trabajos';
+import Casos from './components/Casos';
+import Contacto from './components/Contacto';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <BrowserRouter>
+   <NavBar />
+    <Switch>
+      <Route component={Index} path='/' exact />
+      <Route component={IdeasItem} path='/ideas/:slug' />
+      <Route component={Ideas} path='/ideas' />
+      <Route component={Nosotros} path='/nosotros' />
+      <Route component={Trabajos} path='/trabajos' />
+      <Route component={Casos} path='/casos' />
+      <Route component={Contacto} path='/contacto' />
+    </Switch>
+   </BrowserRouter>
   );
 }
 

@@ -5,12 +5,17 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'Title',
+      title: 'Titulo',
+      type: 'string',
+    },
+    {
+      name: 'subtitle',
+      title: 'Subtitulo',
       type: 'string',
     },
     {
       name: 'slug',
-      title: 'Slug',
+      title: 'Url',
       type: 'slug',
       options: {
         source: 'title',
@@ -19,13 +24,13 @@ export default {
     },
     {
       name: 'author',
-      title: 'Author',
+      title: 'Autor',
       type: 'reference',
       to: {type: 'author'},
     },
     {
       name: 'mainImage',
-      title: 'Main image',
+      title: 'Imagen principal',
       type: 'image',
       options: {
         hotspot: true,
@@ -33,18 +38,18 @@ export default {
     },
     {
       name: 'categories',
-      title: 'Categories',
+      title: 'Categoría',
       type: 'array',
       of: [{type: 'reference', to: {type: 'category'}}],
     },
     {
       name: 'publishedAt',
-      title: 'Published at',
+      title: 'Fecha de publicación',
       type: 'datetime',
     },
     {
       name: 'body',
-      title: 'Body',
+      title: 'Texto',
       type: 'blockContent',
     },
   ],
