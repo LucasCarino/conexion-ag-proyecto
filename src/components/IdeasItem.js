@@ -1,14 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import { useParams } from 'react-router-dom';
 import sanityClient from '../client.js';
-import imageUrlBuilder from '@sanity/image-url';
 import BlockContent from '@sanity/block-content-to-react';
 import Footer from './Footer'
-
-const builder = imageUrlBuilder(sanityClient);
-function urlFor(source){
-    return builder.image(source)
-}
 
 export default function IdeasItem() {
     const [ ideasItem, setIdeasItem] = useState(null);
@@ -50,7 +44,7 @@ export default function IdeasItem() {
                             <h4 className="h6">
                                 {ideasItem.subtitle}
                             </h4>
-                            <h2 className="w-25 h4">
+                            <h2 className="h1 xbold">
                                 {ideasItem.title}
                             </h2>
                             {/* <div>

@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+* {
+  font-family: 'Mulish', sans-serif !important;
+}
+
+p {
+  font-size: 14px !important;
+}
+
 .carousel-caption:nth-child(1) {
     text-align: left;
     color: #fff;
     padding: 0;
     bottom: 60px;
-    left: 110px;
+    left: 112px;
     font-size: 10px;
   }
 .carousel-caption:nth-child(2) {
@@ -86,8 +96,8 @@ hr {
 
 .portfolio-details {
   width: 100%;
+  height: 100%;
   overflow: hidden;
-  position: relative;
 }
 
 .portfolio-info {
@@ -232,6 +242,10 @@ hr {
   transition: 1s;
 }
 
+.blockContent figure img {
+  margin: 30px 0 20px 0;
+}
+
 .ideasItem-title {
   width: 60%
 }
@@ -242,4 +256,46 @@ hr {
 
 .ideasItem-title h2::first-letter{
   text-transform: capitalize;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.adjust {
+  position:absolute;
+  top: -40px;
+}
+
+.portfolio-details-container{
+  margin-top: -80px;
+}
+
+.casos-info{
+  position: absolute;
+  top: 750px;
+}
+
+.carousel {
+  position: relative !important;
+  height: 100% !important;
+}
+
+.adjust {
+  position: unset !important;
+}
+
+.adjust img {
+  width: 100%;
+}
+
+.link-hover:hover {
+  color: rgb(79, 79, 79) !important;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+
+a {
+  transition: 0.5s !important;
 }

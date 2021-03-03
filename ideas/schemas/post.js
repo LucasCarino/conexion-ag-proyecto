@@ -53,7 +53,22 @@ export default {
       type: 'blockContent',
     },
   ],
-
+  orderings: [
+    {
+      title: 'Fecha de publicación, New',
+      name: 'fechaDesc',
+      by: [
+        {field: 'publishedAt', direction: 'desc'}
+      ]
+    },
+    {
+      title: 'Fecha de publicación, Old',
+      name: 'fechaAsc',
+      by: [
+        {field: 'publishedAt', direction: 'asc'}
+      ]
+    },
+  ],
   preview: {
     select: {
       title: 'title',

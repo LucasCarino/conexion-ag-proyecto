@@ -9,7 +9,6 @@ import Trabajos from './components/Trabajos';
 import Casos from './components/Casos';
 import Contacto from './components/Contacto';
 import NavBar from './components/NavBar';
-
 function App() {
   return (
    <BrowserRouter>

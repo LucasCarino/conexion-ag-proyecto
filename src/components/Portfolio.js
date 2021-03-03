@@ -8,9 +8,9 @@ import nosotros6 from '../assets/img/nosotros-6.jpg';
 
 function Portfolio(){
     return(
-        <section id="portfolio">
-            <div className="container">
-                <div className="row">
+        <div className="container">
+            <section id="portfolio">
+                <div>
                     <div className="col-md-6">
                         <hr />
                         <h2 className="xbold black">
@@ -169,8 +169,8 @@ function Portfolio(){
                         <br />
                     </div>
                 </div>
-            </div>
         </section>
+        </div>
     )
 }
 
