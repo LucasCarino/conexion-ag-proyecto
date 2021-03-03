@@ -128,7 +128,7 @@ class Index extends Component {
         ride="carousel"
         interval="3000"
         slide={false}
-        className="carousel-fade"
+        className="carousel-fade carouselIndex"
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
