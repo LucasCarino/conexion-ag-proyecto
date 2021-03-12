@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import nosotros1 from '../assets/img/nosotros-1.jpg';
 import nosotros2 from '../assets/img/nosotros-2.jpg';
 import nosotros3 from '../assets/img/nosotros-3.jpg';
@@ -60,14 +61,22 @@ function Portfolio(){
                 <div className="row">
                     <div className="col-md-6">
                         <div className="portfolio-info">
-                            <p> 
-                                Smiles Argentina 
+                            <p className="black"> 
+                                <Link to='/trabajos/smiles' className="black link-hover">
+                                    Smiles Argentina 
+                                </Link>
                                 <br />
+                                <Link to='/trabajos/wilo' className="black link-hover">
                                 Wilo LATAM
+                                </Link>
                                 <br />
+                                <Link to='/trabajos/SMC360' className="black link-hover">
                                 SMC360
+                                </Link>
                                 <br />
+                                <Link to='/trabajos/ceramica-cregar' className="black link-hover">
                                 Cerámica Cregar
+                                </Link>
                                 <br />
                                 Cerámica Industrial Avellaneda
                             </p>
@@ -76,10 +85,12 @@ function Portfolio(){
                     </div>
                     <div className="col-md-6">
                         <div className="portfolio-info">
-                            <p> 
+                            <p className="black"> 
                                 Clarín
                                 <br />
-                                Universidad Nacional de Rafaela
+                                <Link to="/trabajos/unraf" className="black link-hover">
+                                    Universidad Nacional de Rafaela 
+                                </Link>
                                 <br />
                                 Universidad de Palermo
                                 <br />

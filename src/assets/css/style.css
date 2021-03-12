@@ -304,3 +304,8 @@ hr {
 a {
   transition: 0.5s !important;
 }
+
+.img-fluid-2 {
+  max-width: 100%;
+  height: auto;
+}

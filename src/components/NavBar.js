@@ -5,7 +5,6 @@ import '../assets/css/style.css';
 
 function NavBar(){
     const [header, setHeader] = useState(false);
-
     const changeHeader = () => {
         if(window.scrollY >= 10) {
             setHeader(true)
@@ -26,22 +25,32 @@ function NavBar(){
                                     <img src={image} width="80" alt='imagen' />
                                 </NavLink>
                                 <nav className="nav-menu active d-none d-lg-block">
-                                    <NavLink to="/nosotros" className="m-3 text-body font-weight-bold text-uppercase nounderline">
+                                    <NavLink to="/nosotros" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         nosotros
                                     </NavLink>
-                                    <NavLink to="/trabajos" className="m-3 text-body font-weight-bold text-uppercase nounderline">
+                                    <NavLink to="/trabajos" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         trabajos
                                     </NavLink>
-                                    <NavLink to="/casos" className="m-3 text-body font-weight-bold text-uppercase nounderline">
+                                    <NavLink to="/casos" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         casos
                                     </NavLink>
-                                    <NavLink to="/ideas" className= "m-3 text-body font-weight-bold text-uppercase nounderline">
+                                    <NavLink to="/ideas" className= "m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         ideas
                                     </NavLink>
-                                    <NavLink to="/contacto" className="m-3 text-body font-weight-bold text-uppercase nounderline">
+                                    <NavLink to="/contacto" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         contacto
                                     </NavLink>
                                 </nav>
+                                {/* <i className="icofont-navigation-menu" />
+                                <nav className="mobile-nav d-lg-none">
+                                    <ul>
+                                        <li>
+                                            Hola
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div className="mobile-nav-overly" style={{'display':'none'}}  >
+                                    </div> */}
                             </div>
                         </div>
                     </div>
