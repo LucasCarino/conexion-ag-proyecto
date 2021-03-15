@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import {
   Carousel,
   CarouselItem,
-  CarouselControl,
+  // CarouselControl,
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
@@ -132,8 +132,8 @@ class Index extends Component {
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        {/* <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} /> */}
+        {/* <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} /> */}
       </Carousel>
     );
   }

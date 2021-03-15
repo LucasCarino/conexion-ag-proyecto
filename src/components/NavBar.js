@@ -1,30 +1,33 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import image from '../assets/img/logo.png';
 import { NavLink } from 'react-router-dom';
 import '../assets/css/style.css';
+import * as ReactBootStrap from 'react-bootstrap'
 
-function NavBar(){
-    const [header, setHeader] = useState(false);
-    const changeHeader = () => {
+function NavBarComponent(){
+    const [navBar, setNavBar] = useState(false);
+    const changeNavBar = () => {
         if(window.scrollY >= 10) {
-            setHeader(true)
+            setNavBar(true)
         } else {
-            setHeader(false)
+            setNavBar(false)
         }
     }
 
-    window.addEventListener('scroll', changeHeader);
+    window.addEventListener('scroll', changeNavBar);
     return(
+
         <React.Fragment>
             <body>
-                <header id="header" className={`fixed-top p-3 ${header ? 'header active' : 'header'}`}>
-                    <div className="container-fluid">
-                        <div className="row justify-content-center">
-                            <div className="col-xl-11 d-flex align-items-center">
+                            <ReactBootStrap.Navbar collapseOnSelect expand="lg" className={navBar ? 'navbar active' : 'navbar'}>
                                 <NavLink className="logo mr-auto" to="/" exact>
                                     <img src={image} width="80" alt='imagen' />
                                 </NavLink>
-                                <nav className="nav-menu active d-none d-lg-block">
+                            <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                            <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+                                <ReactBootStrap.Nav className="mr-auto">
+                                </ReactBootStrap.Nav>
+                                <ReactBootStrap.Nav>
                                     <NavLink to="/nosotros" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         nosotros
                                     </NavLink>
@@ -34,30 +37,18 @@ function NavBar(){
                                     <NavLink to="/casos" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         casos
                                     </NavLink>
-                                    <NavLink to="/ideas" className= "m-3 text-body font-weight-bold text-uppercase nounderline black">
+                                    <NavLink to="/ideas" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         ideas
                                     </NavLink>
                                     <NavLink to="/contacto" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
                                         contacto
                                     </NavLink>
-                                </nav>
-                                {/* <i className="icofont-navigation-menu" />
-                                <nav className="mobile-nav d-lg-none">
-                                    <ul>
-                                        <li>
-                                            Hola
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <div className="mobile-nav-overly" style={{'display':'none'}}  >
-                                    </div> */}
-                            </div>
-                        </div>
-                    </div>
-                </header>
+                                </ReactBootStrap.Nav>
+                            </ReactBootStrap.Navbar.Collapse>
+                            </ReactBootStrap.Navbar>
             </body>
         </React.Fragment>
     )
 }
 
-export default NavBar;
+export default NavBarComponent;

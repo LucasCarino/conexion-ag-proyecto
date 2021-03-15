@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import sanityClient from '../client.js';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import { Preloader, Puff } from 'react-preloader-icon';
 
 export default function Ideas() {
     const [postData, setPost] = useState(null);
@@ -23,6 +24,39 @@ export default function Ideas() {
         .then((data) => setPost(data))
         .catch(console.error)
     }, []);
+
+       
+    
+
+
+    if(!postData) return <div>
+        <section id="portfolio">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                    <hr />
+                    <h2 className="xbold black">
+                        Imagen y cultura.
+                        <br />
+                        Porque en AG siempre tenemos algo para decir.
+                    </h2>
+                    <hr />
+                </div>
+            </div>
+            </div>
+        </section>
+        <div className="d-flex align-items-center justify-content-center mt-5 p-5">
+            <Preloader
+            use={Puff}
+            size={60}
+            strokeWidth={6}
+            strokeColor="#000"
+            duration={2000}
+            />
+        </div>
+        <Footer/>
+    </div>;
+
     return(
         <section id="portfolio">
             <div className="container">
