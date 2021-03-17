@@ -15,9 +15,9 @@ function Proyectos(){
                                 <Link to={'/trabajos/' + trabajo.name}>
                                 <img src={trabajo.mainImg.default} key={key} className="trabajo-img" alt={trabajo.title} />
                                 </Link>
-                                <div className="portfolio-info">
+                                <div className="portfolio-info pt-2 pb-1">
                                     <p className="black text-uppercase">{trabajo.title}</p>
-                                    <h4 className="xbold black">{trabajo.subtitle}</h4>
+                                    <h4 className="xbold black pb-2">{trabajo.subtitle}</h4>
                                 </div>
                             </div>
                          )

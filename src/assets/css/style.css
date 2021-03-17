@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap'); */
+/* @import url('../../../public/fonts/Muli-VariableFont_wght.ttf'); */
+
+@font-face { font-family: Muli; src: url('../fonts/Muli-VariableFont_wght.ttf'); } 
 
 * {
-  font-family: 'Mulish', sans-serif !important;
+  font-family: 'Muli', sans-serif !important;
 }
 
 p {
@@ -64,7 +67,7 @@ body,
 }
 
 #portfolio {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 .img-fluid{
@@ -90,25 +93,24 @@ body,
   position: fixed;
   width: 100%;
   z-index: 1;
+  padding: 15px 16px !important;
 }
+
 
 .navbar.active{
   background-color: rgba(255, 255, 255, 0.8);
   transition: ease-in-out 0.5s;
-  padding: 10px 16px !important;
+  padding: 5px 16px !important;
 }
 
 .navbar-nav {
   align-items: center;
+  padding-right: 45px;
+  padding-top: 10px
 }
 
 hr {
-  border-width: 0.001em;
-  border-style: solid;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
+  border-top: 2px solid black;
   border-color: #000;
 }
 
@@ -127,7 +129,6 @@ hr {
 }
 
 .xbold {
-  padding: 5px 0;
   font-weight: 700;
 }
 
@@ -163,6 +164,8 @@ hr {
 #footer .copyright{
   text-align: center;
   padding-top: 30px;
+  margin-left: -55px;
+  color: black !important;
   width: 100%
 }
 
@@ -369,4 +372,17 @@ a {
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity 150ms linear, transform 150ms ease-in;
+}
+
+.navbar-font {
+  font-size: 14px;
+}
+
+.small {
+  font-size: 80% !important;
+}
+
+.container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }

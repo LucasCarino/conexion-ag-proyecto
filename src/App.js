@@ -1,10 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
 import {
   CSSTransition,
   TransitionGroup,
 } from 'react-transition-group';
+
+import ScrollToTop from './ScrollToTop'
 
 import Index from './components/Index';
 import Ideas from './components/Ideas';
@@ -26,7 +28,8 @@ import NavBarComponent from './components/NavBar';
 class App extends Component {
   render () {
     return (
-     <BrowserRouter>
+     <BrowserRouter >
+      <ScrollToTop />
       <NavBarComponent />
       <Route render={({location}) => (
         <TransitionGroup>

@@ -6,8 +6,8 @@ function Footer(){
         <footer id="footer">
             <div className="container">
                 <div className="row flex-nowrap">
-                    <div className="mt-4 isologo">
-                        <img src={Isologo} alt="isologo"/>
+                    <div className="mt-4 ml-5 pl-3">
+                        <img src={Isologo} className="w-75" alt="isologo"/>
                     </div>
                     <div className="copyright">
                         <div>

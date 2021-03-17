@@ -19,12 +19,13 @@ export default function SmilesItem() {
         <React.Fragment>
             <section id="portfolio">
                 <div className="container">
-
-
-                <hr />
-           
+                <div className="col-md-6">
+                     <hr />
+                </div>
                     <div className="row">
-                        <SMC360Carousel />
+                        <div className="col-md-12">
+                            <SMC360Carousel />
+                        </div>
                         <div className="container">
                             <div className="row mt-3">
                                 <div className="col-md-4 padding-0 d-none d-sm-block">

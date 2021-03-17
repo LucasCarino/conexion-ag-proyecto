@@ -11,18 +11,19 @@ export default function SmilesItem() {
         <React.Fragment>
             <section id="portfolio">
                 <div className="container">
-
-
-                <hr />
-           
+                <div className="col-md-6">
+                     <hr />
+                </div>
                     <div className="row">
-                        <SmilesCarousel />
+                        <div className="col-md-12">
+                            <SmilesCarousel />
+                        </div>
                         <div className="container">
                             <div className="row mt-3">
-                                <div className="col-md-4 padding-0 d-none d-sm-block">
+                                <div className="col-md-4 p-0 pt-4 mt-5 d-none d-sm-block">
                                     <img src={portfolioSmiles2} alt="Imagen principal" className="img-fluid-2" />
                                 </div>
-                                <div className="col-md-8 padding-0">
+                                <div className="col-md-8 p-0">
                                     <div>
                                         <div className="portfolio-info pl-3">
                                             <p>SMILES</p>

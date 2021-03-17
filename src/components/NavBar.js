@@ -20,27 +20,27 @@ function NavBarComponent(){
         <React.Fragment>
             <body>
                             <ReactBootStrap.Navbar collapseOnSelect expand="lg" className={navBar ? 'navbar active' : 'navbar'}>
-                                <NavLink className="logo mr-auto" to="/" exact>
-                                    <img src={image} width="80" alt='imagen' />
+                                <NavLink className="logo mr-auto ml-2 pl-5" to="/" exact>
+                                    <img src={image} width="75" alt='imagen' />
                                 </NavLink>
                             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                                 <ReactBootStrap.Nav className="mr-auto">
                                 </ReactBootStrap.Nav>
                                 <ReactBootStrap.Nav>
-                                    <NavLink to="/nosotros" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
+                                    <NavLink to="/nosotros" className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
                                         nosotros
                                     </NavLink>
-                                    <NavLink to="/trabajos" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
+                                    <NavLink to="/trabajos" className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
                                         trabajos
                                     </NavLink>
-                                    <NavLink to="/casos" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
+                                    <NavLink to="/casos" className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
                                         casos
                                     </NavLink>
-                                    <NavLink to="/ideas" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
+                                    <NavLink to="/ideas" className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
                                         ideas
-                                    </NavLink>
-                                    <NavLink to="/contacto" className="m-3 text-body font-weight-bold text-uppercase nounderline black">
+                                    </NavLink> 
+                                    <NavLink to="/contacto" className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
                                         contacto
                                     </NavLink>
                                 </ReactBootStrap.Nav>
