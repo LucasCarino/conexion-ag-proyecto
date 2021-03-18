@@ -21,13 +21,13 @@ function NavBarComponent(){
             <body>
                             <ReactBootStrap.Navbar collapseOnSelect expand="lg" className={navBar ? 'navbar active' : 'navbar'}>
                                 <NavLink className="logo mr-auto ml-2 pl-5" to="/" exact>
-                                    <img src={image} width="75" alt='imagen' />
+                                    <img src={image} width="75" className="mb-2 mt-2" alt='imagen' />
                                 </NavLink>
                             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                                 <ReactBootStrap.Nav className="mr-auto">
                                 </ReactBootStrap.Nav>
-                                <ReactBootStrap.Nav>
+                                <ReactBootStrap.Nav className="pt-1">
                                     <NavLink to="/nosotros" className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
                                         nosotros
                                     </NavLink>

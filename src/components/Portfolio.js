@@ -96,7 +96,7 @@ function Portfolio(){
                                 <br />
                                 Gráffica (España)
                                 <br />
-                                Entre otros.
+                                entre otros.
                             </p>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ function Portfolio(){
                     <div className="col-md-6">
                         <img src={nosotros1} className="nosotros-img" alt="nosotros"/>
                         <p className="mt-3">
-                            <span className="xbold black h6">- Lucas López</span>
+                            <span className="xbold black">- Lucas López</span>
                         </p>
                         <p className="mb-0 black">Fundador y director de AG, agencia especializada en branding, diseño y contenidos.</p>
                         <p className="black">
@@ -125,7 +125,7 @@ function Portfolio(){
                     <div className="col-md-6">
                         <img src={nosotros2} className="nosotros-img" alt="nosotros"/>
                         <p className="mt-3">
-                            <span className="xbold black h6">- Candela Iglesias</span>
+                            <span className="xbold black">- Candela Iglesias</span>
                         </p>
                         <p className="mb-0 black">Diseñadora. Contenido gráfico y animado para distintas marcas, creatividad de identidades visuales.
                         <br />Forma parte del equipo de la agencia desde fines de 2019.
@@ -141,7 +141,7 @@ function Portfolio(){
                     <div className="col-md-6">
                         <img src={nosotros3} className="nosotros-img" alt="nosotros"/>
                         <p className="mt-3">
-                            <span className="xbold black h6">- Kevin Hernández</span>
+                            <span className="xbold black">- Kevin Hernández</span>
                         </p>
                         <p className="mb-0 black">
                         Diseñador. Soluciones creativas con foco en redes sociales y digital.
@@ -155,7 +155,7 @@ function Portfolio(){
                     <div className="col-md-6">
                         <img src={nosotros5} className="nosotros-img" alt="nosotros"/>
                         <p className="mt-3">
-                            <span className="xbold black h6">- Débora Jael Janavel</span>
+                            <span className="xbold black">- Débora Jael Janavel</span>
                         </p>
                         <p className="black mb-0">
                             Diseñadora UX, creatividad y Design Thinking. Forma parte del equipo desde mediados de 2020.
@@ -171,7 +171,7 @@ function Portfolio(){
                     <div className="col-md-6">
                         <img src={nosotros6} className="nosotros-img" alt="nosotros"/>
                         <p className="mt-3">
-                            <span className="xbold black h6">- Florencia Pak</span>
+                            <span className="xbold black">- Florencia Pak</span>
                         </p>
                         <p className="mb-0">
                             Diseñadora especializada en editorial y entornos digitales. Forma parte del equipo de AG desde fines de 2020.
@@ -184,7 +184,7 @@ function Portfolio(){
                     <div className="col-md-6">
                         <img src={nosotros4} className="nosotros-img" alt="nosotros"/>
                         <p className="mt-3">
-                            <span className="xbold black h6">- Pablo Faro</span>
+                            <span className="xbold black">- Pablo Faro</span>
                         </p>
                         <p className="black mb-0">
                             Director audiovisual, diseño de motion graphics y efectos. Luego de terminar la carrera de realizador de Cine y Televisión en 1998, ingresa a CuatroCabezas donde desempeña diferentes funciones como editor y camarógrafo. Ayuda a AG desde mediados de 2019.

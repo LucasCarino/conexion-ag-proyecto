@@ -63,7 +63,7 @@ export default function Ideas() {
                 <div className="row">
                     <div className="col-md-6">
                         <hr />
-                        <h2 className="xbold black">
+                        <h2 className="xbold black mb-4">
                             Imagen y cultura.
                             <br />
                             Porque en AG siempre tenemos algo para decir.

@@ -1,10 +1,15 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap'); */
 /* @import url('../../../public/fonts/Muli-VariableFont_wght.ttf'); */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
 @font-face { font-family: Muli; src: url('../fonts/Muli-VariableFont_wght.ttf'); } 
 
 * {
-  font-family: 'Muli', sans-serif !important;
+  font-family: 'Mulish', sans-serif;
+  color: black;
 }
 
 p {
@@ -86,7 +91,7 @@ body,
 }
 
 .navbar {
-  transition: ease-in-out 0.5s;
+  transition: all 0.5s;
 }
 
 .navbar {
@@ -98,8 +103,8 @@ body,
 
 
 .navbar.active{
-  background-color: rgba(255, 255, 255, 0.8);
-  transition: ease-in-out 0.5s;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s;
   padding: 5px 16px !important;
 }
 
@@ -129,7 +134,7 @@ hr {
 }
 
 .xbold {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .portfolio-details .portfolio-info p {
@@ -314,7 +319,6 @@ hr {
 .link-hover:hover {
   color: rgb(79, 79, 79) !important;
   transition: 0.5s;
-  text-decoration: none !important;
 }
 
 a {
@@ -375,7 +379,8 @@ a {
 }
 
 .navbar-font {
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 800 !important;
 }
 
 .small {
