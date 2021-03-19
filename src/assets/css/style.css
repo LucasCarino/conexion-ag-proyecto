@@ -1,10 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap'); */
-/* @import url('../../../public/fonts/Muli-VariableFont_wght.ttf'); */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
-
-
 @font-face { font-family: Muli; src: url('../fonts/Muli-VariableFont_wght.ttf'); } 
 
 * {
@@ -20,22 +14,24 @@ p {
 .carousel {
   z-index: -1 !important;
 }
+
 .carousel-caption:nth-child(1) {
-    text-align: left;
-    color: #fff;
-    padding: 0;
-    bottom: 60px;
-    left: 112px;
-    font-size: 10px;
-  }
+  text-align: left;
+  color: #fff;
+  padding: 0;
+  bottom: 60px;
+  left: 112px;
+  font-size: 10px;
+}
+
 .carousel-caption:nth-child(2) {
-    text-align: left;
-    color: #fff;
-    text-transform: uppercase;
-    padding-bottom: 30px;
-    left: 112px;
-    bottom: 70px;
-  }
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  left: 112px;
+  bottom: 70px;
+}
 
 h3 {
   font-size: 35px;
@@ -48,6 +44,7 @@ h3 {
   opacity: 0;
   transition: opacity .50s ease-in-out;
 }
+
 .carousel-fade .carousel-item.active {
   opacity: 1;
 }
@@ -65,11 +62,12 @@ body,
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
 }
+
 .carouselIndex {
   position: absolute !important;
-  top: 0;
-  left: 0;
 }
 
 #portfolio {
@@ -154,6 +152,7 @@ hr {
   height: auto !important;
   transition: 0.3s;
 }
+
 .trabajo-img:hover {
   opacity: .7;
 }
@@ -167,6 +166,7 @@ hr {
     max-width: 90%;
     margin: 50px auto 0;
 }
+
 #footer .copyright{
   text-align: center;
   padding-top: 30px;
@@ -179,11 +179,11 @@ hr {
   margin-top: 10px;
   margin-bottom: 0px;
 }
+
 .portfolio-info h4 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
 
 .post-img-div {
   width: 100%;
@@ -214,17 +214,15 @@ hr {
   padding: 0px;
   color: black;
 }
+
 .ideas-caption::first-letter {
   text-transform: capitalize;
 }
-
 
 .ideasItem-authorImg {
   position: absolute;
   width:3%
 }
-
-
 
 .ideasItem-img{
   height: 300px;
@@ -263,6 +261,7 @@ hr {
   transition: 1s;
   align-self: center;
 }
+
 .blockContent figure:hover {
   transform: scale(1.3);
   cursor:zoom-in;
@@ -306,7 +305,6 @@ hr {
 
 .carousel {
   position: relative;
-  height: 100% !important;
 }
 
 .adjust {
@@ -331,13 +329,13 @@ a {
   height: auto;
 }
 
-/* advanced - enter transition 800ms, exit 150ms */
 .fade-appear,
 .fade-enter {
     opacity: 0;
     z-index: 1;
     transform: translateY(-10px);
 }
+
 .fade-appear p,
 .fade-enter p {
   transform: translateY(-5px);
@@ -350,19 +348,23 @@ a {
   transform: translateY(0);
   transition: opacity 300ms linear 150ms, transform 300ms ease-out 150ms;
 }
+
 .fade-appear-active p,
 .fade-enter.fade-enter-active p {
   transform: translateY(0);
   opacity: 1;
 }
+
 .fade-appear-active p:nth-child(2),
 .fade-enter.fade-enter-active p:nth-child(2) {
   transition: opacity 300ms linear 300ms, transform 300ms ease-out 300ms;
 }
+
 .fade-appear-active p:nth-child(3),
 .fade-enter.fade-enter-active p:nth-child(3) {
   transition: opacity 300ms linear 400ms, transform 300ms ease-out 400ms;
 }
+
 .fade-appear-active p:nth-child(4),
 .fade-enter.fade-enter-active p:nth-child(4) {
   transition: opacity 300ms linear 500ms, transform 300ms ease-out 500ms;
@@ -391,4 +393,12 @@ a {
 .container {
   padding-left: 0px !important;
   padding-right: 0px !important;
+}
+
+.img-slider {
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+  object-fit: cover;
 }

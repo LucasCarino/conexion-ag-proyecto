@@ -87,8 +87,8 @@ const items = [
           slide={false}
           className="carousel-fade"
         >
-          <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
           {slides}
+          <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         </Carousel>
           );
       }

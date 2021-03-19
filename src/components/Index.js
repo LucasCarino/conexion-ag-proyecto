@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import {
   Carousel,
   CarouselItem,
-  // CarouselControl,
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
@@ -109,7 +108,7 @@ class Index extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} className="img-fluid"/>
+          <img src={item.src} alt={item.altText} className="img-slider"/>
           <div className="carousel-container">
             <CarouselCaption captionHeader={item.altText} className="carousel-caption"/>
             <CarouselCaption captionText={item.caption} className="carousel-caption"/>
@@ -132,8 +131,6 @@ class Index extends Component {
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
-        {/* <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} /> */}
-        {/* <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} /> */}
       </Carousel>
     );
   }

@@ -26,7 +26,7 @@ export default function Casos() {
                             <div>
                                 <div className="portfolio-info">
                                     <p className="text-uppercase">club atletico independiente.</p>
-                                    <h3 className="position-relative h3">
+                                    <h3 className="position-relative h3 xbold">
                                     Será siempre Independiente,
                                     <br />
                                     el orgullo nacional

@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
     Carousel,
     CarouselItem,
-    CarouselControl,
+    CarouselCaption,
+    CarouselIndicators
   } from 'reactstrap';
 
 import cai1 from '../assets/img/slider-cai-1.jpg';
@@ -78,6 +79,8 @@ class CarouselComponent extends Component {
         >
           <img src={item.src} alt={item.altText}/>
           <div className="carousel-container">
+            <CarouselCaption captionHeader={item.altText} className="carousel-caption"/>
+            <CarouselCaption captionText={item.caption} className="carousel-caption"/>
           </div>
         </CarouselItem>
       );
@@ -96,8 +99,7 @@ class CarouselComponent extends Component {
         className="carousel-fade"
       >
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
       </Carousel>
         );
     }

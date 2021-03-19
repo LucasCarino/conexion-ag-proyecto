@@ -5,7 +5,7 @@ export const TrabajosData = [
             subtitle: "Cultura de millas",
             caption1: "En AG aportamos ideas, diseño, contenidos, redacción, asistencia, desarrollo, programación, animaciones, estrategia, experiencia para la comunicación digital de Smiles Argentina. Un equipo multidisciplinario que  todos los días construye y consolida la Cultura Smiles",
             caption2: "Smiles requieren una amplia demanda de servicios, de acuerdo al volumen y exigencias del mercado, aportando creatividad operativa y soluciones que ayudan al desenvolvimento diario del negocio del turismo.",
-            mainImg: require("../assets/img/img-trabajo-1.jpg"),
+            mainImg: require("../assets/img/smiles-test.gif"),
             img1: require("../assets/img/img-trabajo-1.jpg"),
             img2: require("../assets/img/img-trabajo-1.jpg"),
             img3: require("../assets/img/img-trabajo-1.jpg"),
