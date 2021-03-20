@@ -13,7 +13,9 @@ function Proyectos(){
                             <div className="col-md-6" key={key}>
                                 <hr />
                                 <Link to={'/trabajos/' + trabajo.name}>
-                                <img src={trabajo.mainImg.default} key={key} className="trabajo-img" alt={trabajo.title} />
+                                    <div>
+                                        <img src={trabajo.mainImg.default} key={key} className="trabajo-img" alt={trabajo.title} /> 
+                                    </div>
                                 </Link>
                                 <div className="portfolio-info pt-2 pb-1">
                                     <p className="black text-uppercase">{trabajo.title}</p>

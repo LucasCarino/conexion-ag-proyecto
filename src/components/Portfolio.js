@@ -62,20 +62,20 @@ function Portfolio(){
                     <div className="col-md-6">
                         <div className="portfolio-info">
                             <p className="black pb-3"> 
-                                <Link to='/trabajos/smiles' className="black link-hover">
-                                    Smiles Argentina 
+                                <Link to='/trabajos/smiles'>
+                                    <u className="link-hover">Smiles Argentina</u>
                                 </Link>
                                 <br />
-                                <Link to='/trabajos/wilo' className="black link-hover">
-                                Wilo LATAM
+                                <Link to='/trabajos/wilo'>
+                                <u className="link-hover">Wilo LATAM</u>
                                 </Link>
                                 <br />
-                                <Link to='/trabajos/SMC360' className="black link-hover">
-                                SMC360
+                                <Link to='/trabajos/SMC360'>
+                                <u className="link-hover">SMC360</u>
                                 </Link>
                                 <br />
-                                <Link to='/trabajos/ceramica-cregar' className="black link-hover">
-                                Cerámica Cregar
+                                <Link to='/trabajos/ceramica-cregar'>
+                                <u className="link-hover">Cerámica Cregar</u>
                                 </Link>
                                 <br />
                                 Cerámica Industrial Avellaneda
@@ -88,8 +88,8 @@ function Portfolio(){
                             <p className="black"> 
                                 Clarín
                                 <br />
-                                <Link to="/trabajos/unraf" className="black link-hover">
-                                    Universidad Nacional de Rafaela 
+                                <Link to="/trabajos/unraf">
+                                    <u className="link-hover">Universidad Nacional de Rafaela</u>
                                 </Link>
                                 <br />
                                 Universidad de Palermo

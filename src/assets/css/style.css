@@ -11,13 +11,9 @@ p {
   font-weight: 300 !important;
 }
 
-.carousel {
-  z-index: -1 !important;
-}
-
 .carousel-caption:nth-child(1) {
   text-align: left;
-  color: #fff;
+  color: white !important;
   padding: 0;
   bottom: 60px;
   left: 112px;
@@ -26,7 +22,7 @@ p {
 
 .carousel-caption:nth-child(2) {
   text-align: left;
-  color: #fff;
+  color: white !important;
   text-transform: uppercase;
   padding-bottom: 30px;
   left: 112px;
@@ -96,7 +92,7 @@ body,
 .navbar {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   padding: 15px 16px !important;
 }
 
@@ -148,9 +144,10 @@ hr {
 }
 
 .trabajo-img {
-  max-width: 100% !important;
-  height: auto !important;
+  width: 100% !important;
   transition: 0.3s;
+  object-fit: cover;
+  height: 50vh;
 }
 
 .trabajo-img:hover {
