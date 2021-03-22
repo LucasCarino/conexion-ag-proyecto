@@ -235,7 +235,6 @@ hr {
   object-position: 0 40%;
   position: absolute;
   top: 0;
-  filter: grayscale(50%)
 }
 
 .blockContent {

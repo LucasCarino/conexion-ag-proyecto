@@ -63,7 +63,7 @@ export default function Ideas() {
                 <div className="row">
                     <div className="col-md-6">
                         <hr />
-                        <h2 className="xbold black mb-4">
+                        <h2 className="xbold black mb-4 pb-4">
                             Imagen y cultura.
                             <br />
                             Porque en AG siempre tenemos algo para decir.
@@ -73,17 +73,17 @@ export default function Ideas() {
                 </div>
                         <div className="row flex-wrap">
                             {postData && postData.map((post, index) => (
-                            <article className="col-sm-4 p-3">
+                            <article className="col-sm-4 p-3  ">
                                 <Link to={"/ideas/" + post.slug.current} key={post.slug.current}>
                                     <span key={index}>
                                             <div className="post-img-div">
                                                 <img src={post.mainImage.asset.url} className="post-img" alt={post.mainImage.alt}/>
                                             </div>
                                         <span>
-                                            <p className="ideas-caption text-uppercase">
+                                            <p className="ideas-caption text-uppercase black link-hover nounderline">
                                                 {post.subtitle}
                                             </p>
-                                            <h4 className="ideas-caption">
+                                            <h4 className="ideas-caption xbold">
                                                 {post.title}
                                             </h4>
                                         </span>
