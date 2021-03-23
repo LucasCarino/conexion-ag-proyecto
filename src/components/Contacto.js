@@ -14,7 +14,7 @@ export default function Contacto() {
                     <div className="row portfolio-container">
                         <div className="col-md-6">
                             <hr />
-                            <h3 className="xbold">Oficinas</h3>
+                            <h2 className="xbold">Oficinas</h2>
                             <br />
                             <img src={imgContacto1} alt="imagen contacto" className="nosotros-img" />
                         </div>
@@ -29,7 +29,7 @@ export default function Contacto() {
                     <br />
                     <div className="row portfolio-container">
                         <div className="col-md-6">
-                            <div>
+                            <div className="mb-5">
                                 <h4 className="black h5">
                                     Vuelta de Obligado 2273
                                     <br />
