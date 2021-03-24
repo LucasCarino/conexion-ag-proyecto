@@ -36,10 +36,12 @@ export default function SmilesItem() {
                                         </p>
                                     </div>
                                 </div>
-                                <img src={portfolioNexx1} alt="Imagen principal" className="img-fluid-2" />
+                                <div className="col-md-12 pt-2">
+                                    <img src={portfolioNexx1} alt="Imagen principal" className="img-fluid-2 w-100" />
                                 <p className="small"> 
                                     Marca gráfica
                                 </p>
+                                </div>
                                 <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
                                 </div>
                                 
@@ -50,8 +52,8 @@ export default function SmilesItem() {
                                         entre otros servicios digitales.
                                     </p>
                                 </div>
-                                <div className="md-3">
-                                    <img src={portfolioNexx2} className="m-3 img-fluid-2" alt="Porfolio Nexx" />    
+                                <div className="col-md-12">
+                                    <img src={portfolioNexx2} className="m-3 img-fluid-2 w-100" alt="Porfolio Nexx" />    
                                 </div>
                                 <div className="row mt-3 justify-content-center">
                                     <div className="col-md-8 padding-0">
@@ -64,12 +66,13 @@ export default function SmilesItem() {
                                         </h5>
                                     </div>
                                 </div>
+                                <div>
+                                    <img src={portfolioNexx3} className="m-3 pl-5 img-fluid-2 w-100" alt="Porfolio Nexx" />
+                                    <p className="small ml-3 pl-5"> 
+                                        Presentaciones
+                                    </p>
+                                </div>
 
-                                <img src={portfolioNexx3} className="m-3 img-fluid-2" alt="Porfolio Nexx" />
-
-                                <p className="small ml-3"> 
-                                    Presentaciones
-                                </p>
                             </div>
                         </div>
                     </div>

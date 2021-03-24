@@ -56,11 +56,12 @@ export default function SmilesItem() {
                                 </div>
 
                                 <div className="md-3">
-                                    <img src={portfolioMadrid2} className="m-3 img-fluid-2" alt="Porfolio Unraf" />    
+                                    <img src={portfolioMadrid2} className="m-3 img-fluid-2" alt="Porfolio Real Madrid" />    
                                 </div>
-
-                                <img src={portfolioMadrid3} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
-                                <img src={portfolioMadrid4} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
+                                <div>
+                                    <img src={portfolioMadrid3} className="m-3 img-fluid-2" alt="Porfolio Real Madrid" />
+                                    <img src={portfolioMadrid4} className="m-3 img-fluid-2" alt="Porfolio Real Madrid" />
+                                </div>
                                 <p className="small ml-3"> 
                                     Call to action
                                 </p>

@@ -46,19 +46,19 @@ export default function SmilesItem() {
                                             diario del negocio del turismo.
                                         </p>
                                     </div>
+                                    <h4 className="pl-3 black xbold mt-4 pt-3">Lo que hacemos para Smiles</h4>
+                                    <p className="pl-3 black">
+                                        → Resizing y adaptación de píezas promocionales. <br/>
+                                        → Diseño diario de newsletters para distintas bases. <br/>
+                                        → Copywriting de campañas publicitarias. <br/>
+                                        → Definición, dirección y desarrollo de conceptos. <br/>
+                                        → Diseño de key visual para distintas campañas diarias. <br/>
+                                        → Diseño y análisis de UX Diseño y análisis de UI. <br/>
+                                        → Desarrollo front-end y back-end. <br/>
+                                        → Animaciones para redes sociales. <br/>
+                                    </p>
                                 </div>
-                                <h4 className="black">Lo que hacemos para Smiles</h4>
                             </div>
-                        <p className="text-muted">
-                            → Resizing y adaptación de píezas promocionales. <br/>
-                            → Diseño diario de newsletters para distintas bases. <br/>
-                            → Copywriting de campañas publicitarias. <br/>
-                            → Definición, dirección y desarrollo de conceptos. <br/>
-                            → Diseño de key visual para distintas campañas diarias. <br/>
-                            → Diseño y análisis de UX Diseño y análisis de UI. <br/>
-                            → Desarrollo front-end y back-end. <br/>
-                            → Animaciones para redes sociales. <br/>
-                        </p>
                         </div>
                     </div>
                 </div>

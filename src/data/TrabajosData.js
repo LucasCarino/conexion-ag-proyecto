@@ -45,7 +45,7 @@ export const TrabajosData = [
         },
         {
             name: "unraf",
-            title: "universidad de rafaela",
+            title: "universidad nacional de rafaela",
             subtitle: "Colección de ideas",
             caption1: "En AG ayudamos en la identidad visual y el desarrollo editorial de las colecciones Diseño e IDi (Investigación, Desarrollo e innovación) de la Universidad Nacional de Rafaela. ",
             caption2: "El Manual de Estilo de la Colección Diseño abarca las guías más importantes como el formato, la retícula, la tipografía y el sistema de cubiertas, la cromática, la estructura y base de contenidos, entre otros lineamientos editoriales.",

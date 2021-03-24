@@ -57,7 +57,7 @@ export default function SmilesItem() {
                                 <img src={portfolioUnraf3} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
                                 <img src={portfolioUnraf4} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
                                 <p className="small ml-3"> 
-                                    Marca gráfica de la colección Diseño
+                                    Páginas del manual de estilo editorial de la colección
                                 </p>
                                 <img src={portfolioUnraf5} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
                                 <div className="row mt-3 justify-content-center">

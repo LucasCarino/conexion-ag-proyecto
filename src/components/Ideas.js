@@ -74,13 +74,13 @@ export default function Ideas() {
                         <div className="row flex-wrap">
                             {postData && postData.map((post, index) => (
                             <article className="col-sm-4 p-3  ">
-                                <Link to={"/ideas/" + post.slug.current} key={post.slug.current}>
+                                <Link to={"/ideas/" + post.slug.current} className="nounderline" key={post.slug.current}>
                                     <span key={index}>
                                             <div className="post-img-div">
                                                 <img src={post.mainImage.asset.url} className="post-img" alt={post.mainImage.alt}/>
                                             </div>
                                         <span>
-                                            <p className="ideas-caption text-uppercase black link-hover nounderline">
+                                            <p className="ideas-caption text-uppercase black">
                                                 {post.subtitle}
                                             </p>
                                             <h4 className="ideas-caption xbold">

@@ -25,7 +25,7 @@ export default function Casos() {
                         <div className="col-md-8 pl-4">
                             <div>
                                 <div className="portfolio-info">
-                                    <p className="text-uppercase">club atletico independiente.</p>
+                                    <p className="text-uppercase">club atlético independiente.</p>
                                     <h3 className="position-relative h3 xbold">
                                     Será siempre Independiente,
                                     <br />

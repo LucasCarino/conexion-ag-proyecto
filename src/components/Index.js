@@ -23,7 +23,7 @@ const items = [
   {
     src: promo1,
     altText: 'Cultura de millas',
-    caption: 'Smile'
+    caption: 'Smiles'
   },
   {
     src: promo2,
@@ -43,7 +43,7 @@ const items = [
   {
     src: promo5,
     altText: 'Colección de ideas',
-    caption: 'UNIVERSIDAD DE RAFAELA'
+    caption: 'UNIVERSIDAD NACIONAL DE RAFAELA'
   },
   {
     src: promo6,
