@@ -3,6 +3,8 @@ import SmilesCarousel from './SmilesCarousel';
 import Footer from '../Footer';
 import portfolioSmiles2 from '../../assets/img/portfolio-smiles-2.jpg';
 import portfolioSmiles3 from '../../assets/img/portfolio-smiles-3.jpg';
+import portfolioSmiles4 from '../../assets/img/portfolio-smiles-4.jpg';
+import portfolioSmiles5 from '../../assets/img/portfolio-smiles-5.jpg';
 
 
 
@@ -21,7 +23,11 @@ export default function SmilesItem() {
                         <div className="container">
                             <div className="row mt-3">
                                 <div className="col-md-4 p-0 pt-4 mt-5 d-none d-sm-block">
-                                    <img src={portfolioSmiles2} alt="Imagen principal" className="img-fluid-2" />
+                                    <img src={portfolioSmiles2} alt="Imagen principal" className="img-fluid-2 mb-5 pb-5" />
+                                    <div className="p-5 m-5">
+                                        <div className="m-5"></div>
+                                    </div>
+                                    <img src={portfolioSmiles4} alt="Imagen principal" className="img-fluid-2 mt-5 pb-5" />
                                 </div>
                                 <div className="col-md-8 p-0">
                                     <div>
@@ -38,6 +44,7 @@ export default function SmilesItem() {
                                             todos los días construye y consolida la Cultura Smiles.
                                         </p>
                                         <img src={portfolioSmiles3} alt="Imagen principal" className="img-fluid-2" />
+                                        <img src={portfolioSmiles5} alt="Imagen principal" className="img-fluid-2 mt-4 pt-1" />
 
                                         <p className="pl-3 pt-3">
                                             Smiles requieren una amplia demanda de servicios, 

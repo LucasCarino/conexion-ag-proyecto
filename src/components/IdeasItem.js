@@ -47,9 +47,6 @@ export default function IdeasItem() {
                             <h2 className="h1 xbold">
                                 {ideasItem.title}
                             </h2>
-                            {/* <div>
-                                <img src={urlFor(ideasItem.authorImage).url()} alt={ideasItem.name} className="ideasItem-authorImg"/>
-                            </div> */}
                             <p className="xbold">
                                 Por {ideasItem.name}
                             </p>
