@@ -6,8 +6,6 @@ import portfolioSmiles3 from '../../assets/img/portfolio-smiles-3.jpg';
 import portfolioSmiles4 from '../../assets/img/portfolio-smiles-4.jpg';
 import portfolioSmiles5 from '../../assets/img/portfolio-smiles-5.jpg';
 
-
-
 export default function SmilesItem() {
     return(
         <React.Fragment>
@@ -74,4 +72,3 @@ export default function SmilesItem() {
         </React.Fragment>
     )
 }
-

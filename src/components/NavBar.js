@@ -16,7 +16,6 @@ function NavBarComponent(){
 
     window.addEventListener('scroll', changeNavBar);
     return(
-
         <React.Fragment>
                 <ReactBootStrap.Navbar collapseOnSelect expand="lg" className={navBar ? 'navbar active' : 'navbar'}>
                     <NavLink className="logo mr-auto ml-2 pl-5" to="/" exact>
