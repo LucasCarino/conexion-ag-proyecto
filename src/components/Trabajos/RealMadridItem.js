@@ -39,8 +39,10 @@ export default function SmilesItem() {
                                         </p>
                                     </div>
                                 </div>
-                                <img src={portfolioMadrid1} alt="Imagen principal" className="img-fluid-2" />
-                                <p className="small"> 
+                                <div>
+                                    <img src={portfolioMadrid1} alt="Imagen principal" className="img-fluid-2 p-1" />
+                                </div>
+                                <p className="small pl-3"> 
                                     Contenidos de apoyo para redes sociales
                                 </p>
                                 <div className="row mt-3 justify-content-center">
@@ -54,15 +56,12 @@ export default function SmilesItem() {
                                         </h5>
                                     </div>
                                 </div>
-
-                                <div className="md-3">
-                                    <img src={portfolioMadrid2} className="m-3 img-fluid-2" alt="Porfolio Real Madrid" />    
-                                </div>
                                 <div>
-                                    <img src={portfolioMadrid3} className="m-3 img-fluid-2" alt="Porfolio Real Madrid" />
-                                    <img src={portfolioMadrid4} className="m-3 img-fluid-2" alt="Porfolio Real Madrid" />
+                                    <img src={portfolioMadrid2} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Real Madrid" />    
+                                    <img src={portfolioMadrid3} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Real Madrid" />
+                                    <img src={portfolioMadrid4} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Real Madrid" />
                                 </div>
-                                <p className="small ml-3"> 
+                                <p className="small pl-3"> 
                                     Call to action
                                 </p>
                                 <div className="row mt-3 justify-content-center">
@@ -76,9 +75,9 @@ export default function SmilesItem() {
                                         </h5>
                                     </div>
                                 </div>
-                                <img src={portfolioMadrid5} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
-                                
-
+                                <div>
+                                    <img src={portfolioMadrid5} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Real Madrid" />
+                                </div>
                             </div>
                         </div>
                     </div>

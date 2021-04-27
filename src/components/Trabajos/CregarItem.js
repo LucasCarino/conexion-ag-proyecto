@@ -12,9 +12,9 @@ export default function SmilesItem() {
         <React.Fragment>
             <section id="portfolio">
                 <div className="container">
-                <div className="col-md-6">
-                     <hr />
-                </div>
+                    <div className="col-md-6">
+                        <hr />
+                    </div>
                     <div className="row">
                         <div className="col-md-12">
                             <CregarCarousel />
@@ -37,10 +37,12 @@ export default function SmilesItem() {
                                         </p>
                                     </div>
                                 </div>
-                                <img src={portfolioCregar1} alt="Imagen principal" className="img-fluid-2" />
-                                <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
+                                <div>
+                                    <img src={portfolioCregar1} alt="Imagen principal" className="img-fluid-2 " />
                                 </div>
-                                <div className="col-md-8 padding-0">
+                                <div className="col-md-4 p-0 d-none d-sm-block">
+                                </div>
+                                <div className="col-md-8 p-0">
                                     <p className="ml-3 pt-5">
                                         De esta forma Cerámica Cregar logró su posicionamiento
                                         y liderazgo en el mercado de los ladrillos y refractarios. Una
@@ -48,16 +50,17 @@ export default function SmilesItem() {
                                         competencia efectiva en el sector de la construcción.
                                     </p>
                                 </div>
-                                <div className="md-3">
-                                    <img src={portfolioCregar2} className="m-3 img-fluid-2" alt="Porfolio Cregar" />    
+                                <div>
+                                    <img src={portfolioCregar2} className="mb-3 img-fluid-2" alt="Porfolio Cregar" />    
+                                    <img src={portfolioCregar3} className="mb-3 p-1 img-fluid-2" alt="Porfolio Cregar" />
+                                    <img src={portfolioCregar4} className="mb-3 p-1 img-fluid-2" alt="Porfolio Cregar" />
                                 </div>
-
-                                <img src={portfolioCregar3} className="m-3 img-fluid-2" alt="Porfolio Cregar" />
-                                <img src={portfolioCregar4} className="m-3 img-fluid-2" alt="Porfolio Cregar" />
                                 <p className="small ml-3"> 
                                     Gestión, diseño y contenidos del sitio institucional de Cregar
                                 </p>
-                                <img src={portfolioCregar5} className="m-3 img-fluid-2" alt="Porfolio Cregar" />
+                                <div>
+                                    <img src={portfolioCregar5} className="mb-3 p-1 img-fluid-2" alt="Porfolio Cregar" />
+                                </div>
                                 <div className="row mt-3 justify-content-center">
                                     <div className="col-md-8 padding-0">
                                         <h5 className="text-center">

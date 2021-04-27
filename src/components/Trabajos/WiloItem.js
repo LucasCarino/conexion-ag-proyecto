@@ -31,7 +31,7 @@ export default function SmilesItem() {
                                 <div className="col-md-8 padding-0">
                                     <div>
                                         <div className="portfolio-info pl-3">
-                                            <p>Wilo</p>
+                                            <p className="text-uppercase">wilo</p>
                                             <h4 className="xbold black">Soluciones verdes</h4>
                                         </div>
                                         <br />
@@ -42,25 +42,28 @@ export default function SmilesItem() {
                                         </p>
                                     </div>
                                 </div>
-                                <img src={portfolioWilo1} alt="Imagen principal" className="img-fluid-2" />
+                                <div>
+                                    <img src={portfolioWilo1} alt="Imagen principal" className="img-fluid-2 w-100" />
+                                </div>
                                 <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
                                 </div>
                                 <div className="col-md-8 padding-0">
-                                    <p className="ml-3 pt-5">
+                                    <p className="pl-3 pt-5">
                                         Ejecuciones creativas para las redes sociales de Wilo, además de piezas 
                                         impresas como avisos, catálogos y listas de precios, entre otras comunicaciones 
                                         institucionales. Apoyo visual en stands, puntos de venta y flota de vehículos.
                                     </p>
                                 </div>
-                                <div className="md-3">
-                                    <img src={portfolioWilo2} className="m-3 img-fluid-2" alt="Porfolio Wilo 2" />    
+                                <div>
+                                    <img src={portfolioWilo2} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Wilo 2" />    
+                                    <img src={portfolioWilo3} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Wilo 3" />
                                 </div>
-
-                                <img src={portfolioWilo3} className="m-3 img-fluid-2" alt="Porfolio Wilo 3" />
-                                <p className="small ml-3"> 
+                                <p className="small pl-3"> 
                                     Folleto Water Management & Industry 2019
                                 </p>
-                                <img src={portfolioWilo4} className="m-3 img-fluid-2" alt="Porfolio Wilo 4" />
+                                <div>
+                                    <img src={portfolioWilo4} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Wilo 4" />
+                                </div>
                                 <div className="row mt-3 justify-content-center">
                                     <div className="col-md-8 padding-0">
                                         <h5 className="text-center">
@@ -72,7 +75,9 @@ export default function SmilesItem() {
                                         </h5>
                                     </div>
                                 </div>
-                                <img src={portfolioWilo5} className="m-3 img-fluid-2" alt="Porfolio Wilo 5" />
+                                <div>
+                                    <img src={portfolioWilo5} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Wilo 5" /> 
+                                </div>
                                 <p className="small ml-3"> 
                                     Presentación de productos Wilo en redes sociales
                                 </p>

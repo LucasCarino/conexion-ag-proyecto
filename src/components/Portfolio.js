@@ -37,7 +37,7 @@ function Portfolio(){
                     </div>
                     <div className="col-md-6">
                         <div className="portfolio-info">
-                            <h6 class="xbold black pb-2 pt-3">
+                            <h6 className="xbold black pb-2 pt-3">
                                 Hiperconectados
                             </h6>
                             <p> 
@@ -103,7 +103,7 @@ function Portfolio(){
                 </div>
                 <div className="row mt-2">
                     <div className="col-md-6">
-                        <h4 class="xbold black">
+                        <h4 className="xbold black">
                             Un equipo adaptado a las demandas de la nueva normalidad.
                         </h4>
                     </div>

@@ -25,10 +25,6 @@ export default function Ideas() {
         .catch(console.error)
     }, []);
 
-       
-    
-
-
     if(!postData) return <div>
         <section id="portfolio">
             <div className="container">

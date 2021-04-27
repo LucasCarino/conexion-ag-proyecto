@@ -28,9 +28,9 @@ export default function SmilesItem() {
                         </div>
                         <div className="container">
                             <div className="row mt-3">
-                                <div className="col-md-4 padding-0 d-none d-sm-block">
+                                <div className="col-md-4 p-0 d-none d-sm-block">
                                 </div>
-                                <div className="col-md-8 padding-0">
+                                <div className="col-md-8 p-0">
                                     <div>
                                         <div className="portfolio-info pl-3">
                                             <p>SMC360</p>
@@ -44,9 +44,9 @@ export default function SmilesItem() {
                                         </p>
                                     </div>
                                 </div>
-                                <img src={portfolioSMC3601} alt="Imagen principal" className="img-fluid-2" />
-                                <div className="md-3">
-                                    <img src={portfolioSMC3602} className="m-3 img-fluid-2" alt="Porfolio SMC360" />    
+                                <div>
+                                    <img src={portfolioSMC3601} alt="Imagen principal" className="img-fluid-2" />
+                                    <img src={portfolioSMC3602} className="img-fluid-2" alt="Porfolio SMC360" />    
                                 </div>
                                 <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
                                 </div>
@@ -57,9 +57,10 @@ export default function SmilesItem() {
                                     historias orientadas a nuevas audiencias.
                                     </p>
                                 </div>
-
-                                <img src={portfolioSMC3603} className="m-3 img-fluid-2" alt="Porfolio SMC360" />
-                                <img src={portfolioSMC3604} className="m-3 img-fluid-2" alt="Porfolio SMC360" />
+                                <div>
+                                    <img src={portfolioSMC3603} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio SMC360" />
+                                    <img src={portfolioSMC3604} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio SMC360" />
+                                </div>
                                 <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
                                 </div>
                                 <div className="col-md-8 padding-0">
@@ -70,8 +71,10 @@ export default function SmilesItem() {
                                         potencia y acerca los atributos de marca al usuario."
                                     </p>
                                 </div>
-                                <img src={portfolioSMC3605} className="m-3 img-fluid-2" alt="Porfolio SMC360" />
-                                <img src={portfolioSMC3606} className="m-3 img-fluid-2" alt="Porfolio SMC360" />
+                                <div>
+                                    <img src={portfolioSMC3605} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio SMC360" />
+                                    <img src={portfolioSMC3606} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio SMC360" />
+                                </div>
                                 <p className="small ml-3"> 
                                     Contenidos diario para redes sociales
                                 </p>

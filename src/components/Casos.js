@@ -20,7 +20,6 @@ export default function Casos() {
                 <div className="container">
                     <div className="row mt-3 justify-content-center">
                         <div className="col-md-4 p-0 margin-top-90 d-none d-sm-block">
-
                         </div>
                         <div className="col-md-8 pl-4">
                             <div>
@@ -40,7 +39,9 @@ export default function Casos() {
                                 de su identidad, comunicación e imagen global.
                             </p>
                         </div>
-                        <img src={casosMain} alt="Imagen principal" className="nosotros-img" />
+                        <div>
+                            <img src={casosMain} alt="Imagen principal" className="nosotros-img" />
+                        </div>
                         <div className="col-md-8 p-0 w-5 my-5">
                             <h5 class="xbold text-center">
                                 Una estrategia que hace foco en contenidos digitales 
@@ -48,7 +49,7 @@ export default function Casos() {
                                 y efectiva entre la institución, sus dirigentes y sus hinchas.
                             </h5>
                         </div>
-                        <div className="col-md-12 p-0 d-flex justify-content-center">
+                        <div className="col-md-12 p-0 d-flex justify-content-center align-items-center">
                             <img src={cai2} alt="foto independiente" className="nosotros-img"/>
                         </div>
                         <div className="col-md-12 p-0 d-flex justify-content-start ml-4">
@@ -58,7 +59,6 @@ export default function Casos() {
                         </div>
                         <div className="row mt-4">
                             <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
-
                             </div>
                             <div className="col-md-8 padding-0">
                                 <div>

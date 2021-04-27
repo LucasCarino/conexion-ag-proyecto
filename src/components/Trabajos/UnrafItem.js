@@ -21,9 +21,9 @@ export default function SmilesItem() {
                         </div>
                         <div className="container">
                             <div className="row mt-3">
-                                <div className="col-md-4 padding-0 d-none d-sm-block">
+                                <div className="col-md-4 p-0 d-none d-sm-block">
                                 </div>
-                                <div className="col-md-8 padding-0">
+                                <div className="col-md-8 p-0">
                                     <div>
                                         <div className="portfolio-info pl-3">
                                             <p>UNRAF</p>
@@ -37,29 +37,32 @@ export default function SmilesItem() {
                                         </p>
                                     </div>
                                 </div>
-                                <img src={portfolioUnraf1} alt="Imagen principal" className="img-fluid-2" />
-                                <p className="small"> 
+                                <div>
+                                    <img src={portfolioUnraf1} alt="Imagen principal" className="img-fluid-2 p-1 w-100" />
+                                </div>
+                                <p className="small pl-3"> 
                                     Marca gráfica de la colección Diseño
                                 </p>
                                 <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
                                 </div>
                                 <div className="col-md-8 padding-0">
-                                    <p className="ml-3 pt-5">
+                                    <p className="pl-3 pt-5">
                                     El <b>Manual de Estilo de la Colección Diseño</b> abarca las guías más importantes como el formato, 
                                     la retícula, la tipografía y el sistema de cubiertas, la cromática, la estructura y base 
                                     de contenidos, entre otros lineamientos editoriales.
                                     </p>
                                 </div>
                                 <div className="md-3">
-                                    <img src={portfolioUnraf2} className="m-3 img-fluid-2" alt="Porfolio Unraf" />    
+                                    <img src={portfolioUnraf2} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Unraf" />    
+                                    <img src={portfolioUnraf3} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Unraf" />
+                                    <img src={portfolioUnraf4} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Unraf" />
                                 </div>
-
-                                <img src={portfolioUnraf3} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
-                                <img src={portfolioUnraf4} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
-                                <p className="small ml-3"> 
+                                <p className="small pl-3"> 
                                     Páginas del manual de estilo editorial de la colección
                                 </p>
-                                <img src={portfolioUnraf5} className="m-3 img-fluid-2" alt="Porfolio Unraf" />
+                                <div>
+                                    <img src={portfolioUnraf5} className="mb-3 p-1 img-fluid-2 w-100" alt="Porfolio Unraf" />
+                                </div>
                                 <div className="row mt-3 justify-content-center">
                                     <div className="col-md-8 padding-0">
                                         <h5 className="text-center">
