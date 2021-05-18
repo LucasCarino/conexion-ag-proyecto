@@ -28,27 +28,27 @@ function NavBarComponent(){
                         <NavLink to="/nosotros" 
                         activeClassName="active-section"
                         className="m-3 text-body font-weight-bold text-uppercase nounderline black">
-                            <p className="navbar-font">nosotros</p>
+                            <h6 className="navbar-font">nosotros</h6>
                         </NavLink>
                         <NavLink to="/trabajos" 
                         activeClassName="active-section"
                         className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
-                          <p className="navbar-font">trabajos</p>
+                            <h6 className="navbar-font">trabajos</h6>
                         </NavLink>
                         <NavLink to="/casos"
                         activeClassName="active-section" 
                         className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
-                            <p className="navbar-font">casos</p>
+                            <h6 className="navbar-font">casos</h6>
                         </NavLink>
                         <NavLink to="/ideas" 
                         activeClassName="active-section"
                         className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
-                            <p className="navbar-font">ideas</p>
+                            <h6 className="navbar-font">ideas</h6>
                         </NavLink> 
                         <NavLink to="/contacto" 
                         activeClassName="active-section"
                         className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
-                            <p className="navbar-font">contacto</p>
+                            <h6 className="navbar-font">contacto</h6>
                         </NavLink>
                     </ReactBootStrap.Nav>
                 </ReactBootStrap.Navbar.Collapse>

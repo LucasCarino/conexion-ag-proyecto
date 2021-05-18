@@ -400,7 +400,7 @@ a {
 
 .active-section {
   background-image:linear-gradient(rgb(50, 50, 50),rgb(50, 50, 50));
-  background-position:0 75%;
+  background-position:0 100%;
   background-size:100% 5px; 
   background-repeat:no-repeat;
 }

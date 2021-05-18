@@ -69,10 +69,10 @@ export default function Ideas() {
                 </div>
                         <div className="row flex-wrap">
                             {postData && postData.map((post, index) => (
-                            <article className="col-sm-4">
+                            <article className="col-sm-4 mb-4">
                                 <Link to={"/ideas/" + post.slug.current} className="nounderline" key={post.slug.current}>
                                     <span key={index}>
-                                            <div className="post-img-div mb-3">
+                                            <div className="post-img-div mb-2">
                                                 <img src={post.mainImage.asset.url} className="post-img" alt={post.mainImage.alt}/>
                                             </div>
                                         <span>
