@@ -11,21 +11,28 @@ export default function Contacto() {
         <React.Fragment>
             <div id="portfolio">
                 <div className="container">
-                    <div className="row portfolio-container">
                         <div className="col-md-6">
                             <hr />
-                            <h2 className="xbold">Oficinas</h2>
-                            <br />
-                            <img src={imgContacto1} alt="imagen contacto" className="nosotros-img" />
                         </div>
-
-                        <div className="col-md-6">
-                            <hr />
-                            <h3 className="text-white">-</h3>
+                        <div className="col-md-12">
+                            <h2 className="xbold">
+                            Nuestras oficinas.
                             <br />
-                            <img src={imgContacto2} alt="imagen contacto" className="nosotros-img" />
+                            Un especio ideal, nuestro
+                            <br />
+                            lugar en el mundo
+                            </h2>
+                            <br />
                         </div>
-                    </div>
+                        <div className="row">
+                            <div className="col-md-6">
+                                <hr />
+                                <img src={imgContacto1} alt="imagen contacto" className="nosotros-img" />
+                            </div>
+                            <div className="col-md-6">
+                                <img src={imgContacto2} alt="imagen contacto" className="nosotros-img mt-4 pt-2" />
+                            </div>
+                        </div>
                     <br />
                     <div className="row portfolio-container">
                         <div className="col-md-6">

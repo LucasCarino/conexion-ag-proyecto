@@ -6,6 +6,7 @@ import nosotros3 from '../assets/img/nosotros-3.jpg';
 import nosotros4 from '../assets/img/nosotros-4.jpg';
 import nosotros5 from '../assets/img/nosotros-5.jpg';
 import nosotros6 from '../assets/img/nosotros-6.jpg';
+import nosotros7 from '../assets/img/nosotros-7.jpg';
 
 function Portfolio(){
     return(
@@ -188,6 +189,22 @@ function Portfolio(){
                         </p>
                         <p className="black mb-0">
                             Director audiovisual, diseño de motion graphics y efectos. Luego de terminar la carrera de realizador de Cine y Televisión en 1998, ingresa a CuatroCabezas donde desempeña diferentes funciones como editor y camarógrafo. Ayuda a AG desde mediados de 2019.
+                        </p>
+                    </div>
+                </div>
+                <br />
+                <div className="row">
+                    <div className="col-md-6">
+                        <img src={nosotros7} className="nosotros-img" alt="nosotros"/>
+                        <p className="mt-3">
+                            —<span className="xbold black"> Lucas Carino</span>
+                        </p>
+                        <p className="mb-0">
+                        Desarrollador web. Forma parte del equipo de AG desde fines de 2020.
+                            <br />
+                            <i>
+                            “Mi objetivo es desarrollar mis capacidades en los distintos lenguajes de programación y lograr los mejores resultados en las prácticas y proyectos asignados.”
+                            </i>
                         </p>
                     </div>
                 </div>
