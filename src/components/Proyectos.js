@@ -6,8 +6,18 @@ function Proyectos(){
 
     return(
         <React.Fragment>
-            <div className="container d-flex justify-content-center flex-wrap">
-                <div id="portfolio" className="row portfolio-details">
+            <div className="container">
+                <div id="portfolio" className="row">
+                    <div>
+                        <div className="col-md-7">
+                            <hr />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="xbold black">
+                                Branding, diseño y contenidos con foco en servicios digitales.
+                            </h2>
+                        </div>
+                    </div>
                      {TrabajosData.map((trabajo, key) => {   
                          return(
                             <div className="col-md-6" key={key}>

@@ -18,9 +18,9 @@ export default function Contacto() {
                             <h2 className="xbold">
                             Nuestras oficinas.
                             <br />
-                            Un especio ideal, nuestro
+                            Un espacio ideal, nuestro
                             <br />
-                            lugar en el mundo
+                            lugar en el mundo.
                             </h2>
                             <br />
                         </div>

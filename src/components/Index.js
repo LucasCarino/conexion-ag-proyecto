@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { render } from 'react-dom';
 import {
   Carousel,
@@ -8,7 +9,6 @@ import {
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/style.css';
-
 import promo1 from '../assets/img/1.jpg';
 import promo2 from '../assets/img/2.jpg';
 import promo3 from '../assets/img/3.jpg';
@@ -23,42 +23,50 @@ const items = [
   {
     src: promo1,
     altText: 'Cultura de millas',
-    caption: 'Smiles'
+    caption: 'Smiles',
+    link: "https://www.google.com/"
   },
   {
     src: promo2,
     altText: 'Soluciones verdes',
-    caption: 'Wilo'
+    caption: 'Wilo',
+    link: "https://www.google.com/"
   },
   {
     src: promo3,
     altText: 'Marcas y contenidos',
-    caption: 'SMC360'
+    caption: 'SMC360',
+    link: "https://www.google.com/"
   },
   {
     src: promo4,
     altText: 'Líder en refractarios',
-    caption: 'CERÁMICA CREGAR'
+    caption: 'CERÁMICA CREGAR',
+    link: "https://www.google.com/"
   },
   {
     src: promo5,
     altText: 'Colección de ideas',
-    caption: 'UNIVERSIDAD NACIONAL DE RAFAELA'
+    caption: 'UNIVERSIDAD NACIONAL DE RAFAELA',
+    link: "https://www.google.com/"
   },
   {
     src: promo6,
     altText: 'MKT deportivo',
-    caption: 'CLÍNICAS DEL REAL MADRID'
+    caption: 'CLÍNICAS DEL REAL MADRID',
+    link: "https://www.google.com/"
   },
   {
     src: promo7,
     altText: 'Para hombres',
-    caption: 'CERINI'
+    caption: 'CERINI',
+    link: "https://www.google.com/"
   },
   {
     src: promo8,
     altText: 'Humanizando datos',
-    caption: 'NEXX'
+    caption: 'NEXX',
+    link: "https://www.google.com/"
   }
 ];
 
@@ -104,16 +112,19 @@ class Index extends Component {
     const slides = items.map((item) => {
       return (
         <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          key={item.src}
+        onExiting={this.onExiting}
+        onExited={this.onExited}
+        key={item.src}
         >
+          
+          <a href={item.link} className="index-link d-sm-none d-md-block" target="_blank"> Ver más → </a>
           <img src={item.src} alt={item.altText} className="img-slider"/>
           <div className="carousel-container">
             <CarouselCaption captionHeader={item.altText} className="carousel-caption"/>
             <CarouselCaption captionText={item.caption} className="carousel-caption"/>
           </div>
         </CarouselItem>
+
       );
     });
 

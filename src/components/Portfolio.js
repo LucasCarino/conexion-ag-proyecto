@@ -128,8 +128,8 @@ function Portfolio(){
                         <p className="mt-3">
                             —<span className="xbold black"> Candela Iglesias</span>
                         </p>
-                        <p className="mb-0 black">Diseñadora. Contenido gráfico y animado para distintas marcas, creatividad de identidades visuales.
-                        <br />Forma parte del equipo de la agencia desde fines de 2019.
+                        <p className="mb-0 black">Líder de proyectos. Contenido gráfico y animado para distintas marcas, creatividad de identidades visuales.
+                        Forma parte del equipo de la agencia desde fines de 2019.
                         <br />
                             <i>
                                 “En AG, diseño y creación de contenidos digitales, además de adaptaciones para los distintos formatos de redes y pautas gráficas.”
@@ -145,7 +145,7 @@ function Portfolio(){
                             —<span className="xbold black"> Kevin Hernández</span>
                         </p>
                         <p className="mb-0 black">
-                        Diseñador. Soluciones creativas con foco en redes sociales y digital.
+                        Líder de proyectos. Soluciones creativas con foco en redes sociales y digital.
                         Nacido en Venezuela, tras un paso laboral por Perú, forma parte del equipo desde mediados de 2019.
                         <br />
                             <i>
@@ -187,8 +187,12 @@ function Portfolio(){
                         <p className="mt-3">
                             —<span className="xbold black"> Pablo Faro</span>
                         </p>
-                        <p className="black mb-0">
-                            Director audiovisual, diseño de motion graphics y efectos. Luego de terminar la carrera de realizador de Cine y Televisión en 1998, ingresa a CuatroCabezas donde desempeña diferentes funciones como editor y camarógrafo. Ayuda a AG desde mediados de 2019.
+                        <p className="mb-0">
+                            Director audiovisual, diseño de motion graphics y efectos. Ayuda a AG desde mediados de 2019.
+                        <br />
+                        <i>
+                            “Más y mejores proyectos, aportando desde las herramientas y tecnologías de pantalla para animación de piezas promocionales”
+                        </i>
                         </p>
                     </div>
                 </div>

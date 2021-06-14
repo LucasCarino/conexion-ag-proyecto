@@ -18,7 +18,7 @@ export default function SmilesItem() {
                         <div className="col-md-12">
                             <NexxCarousel />    
                         </div>
-                        <div className="container">
+                        <div className="container col-md-11">
                             <div className="row mt-3">
                                 <div className="col-md-4 p-0 d-none d-sm-block">
                                 </div>
