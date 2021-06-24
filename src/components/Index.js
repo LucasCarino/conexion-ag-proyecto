@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { render } from 'react-dom';
 import {
   Carousel,
@@ -24,49 +23,49 @@ const items = [
     src: promo1,
     altText: 'Cultura de millas',
     caption: 'Smiles',
-    link: "https://www.google.com/"
+    link: "/trabajos/smiles"
   },
   {
     src: promo2,
     altText: 'Soluciones verdes',
     caption: 'Wilo',
-    link: "https://www.google.com/"
+    link: "/trabajos/wilo"
   },
   {
     src: promo3,
     altText: 'Marcas y contenidos',
     caption: 'SMC360',
-    link: "https://www.google.com/"
+    link: "/trabajos/smc360"
   },
   {
     src: promo4,
     altText: 'Líder en refractarios',
     caption: 'CERÁMICA CREGAR',
-    link: "https://www.google.com/"
+    link: "/trabajos/ceramica-cregar"
   },
   {
     src: promo5,
     altText: 'Colección de ideas',
     caption: 'UNIVERSIDAD NACIONAL DE RAFAELA',
-    link: "https://www.google.com/"
+    link: "/trabajos/unraf"
   },
   {
     src: promo6,
     altText: 'MKT deportivo',
     caption: 'CLÍNICAS DEL REAL MADRID',
-    link: "https://www.google.com/"
+    link: "/trabajos/real-madrid"
   },
   {
     src: promo7,
     altText: 'Para hombres',
     caption: 'CERINI',
-    link: "https://www.google.com/"
+    link: "/trabajos/cerini"
   },
   {
     src: promo8,
     altText: 'Humanizando datos',
     caption: 'NEXX',
-    link: "https://www.google.com/"
+    link: "/trabajos/nexx"
   }
 ];
 
@@ -117,7 +116,7 @@ class Index extends Component {
         key={item.src}
         >
           
-          <a href={item.link} className="index-link d-sm-none d-md-block" target="_blank"> Ver más → </a>
+          <a href={item.link} className="index-link d-sm-none d-md-block" > Ver más → </a>
           <img src={item.src} alt={item.altText} className="img-slider"/>
           <div className="carousel-container">
             <CarouselCaption captionHeader={item.altText} className="carousel-caption"/>

@@ -437,3 +437,7 @@ a {
     width: 100%;
   }
 }
+
+.socialIcon {
+  width: 40px;
+}

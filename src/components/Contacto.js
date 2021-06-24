@@ -1,11 +1,12 @@
 import React from 'react';
 import imgContacto1 from "../assets/img/img-contacto-1.jpg";
 import imgContacto2 from "../assets/img/img-contacto-2.jpg";
-
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faFacebookF, faInstagram, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 import Footer from './Footer';
 
+import instagramIcon from "../assets/img/icon_instagram.png"
+import facebookIcon from "../assets/img/icon_facebook.png"
+import linkedInIcon from "../assets/img/icon_linkedin.png"
+import spotifyIcon from "../assets/img/icon_spotify.png"
 export default function Contacto() {
     return(
         <React.Fragment>
@@ -48,14 +49,17 @@ export default function Contacto() {
                                 </h4>
                             </div>
                             <hr />
-                            <a href="https://www.facebook.com/ConexionAG" target="_blank" rel="noreferrer">
-                            <FontAwesomeIcon icon={faFacebookF} className="h3 mx-3 black link-hover"/>
-                            </a>
                             <a href="https://www.instagram.com/conexionag/" target="_blank" rel="noreferrer">
-                            <FontAwesomeIcon icon={faInstagram} className="h3 mx-3 black link-hover"/>
+                                <img src={instagramIcon} alt="Instagram Icon" className="socialIcon mx-1"/>
+                            </a>
+                            <a href="https://www.facebook.com/ConexionAG" target="_blank" rel="noreferrer">
+                                <img src={facebookIcon} alt="Facebook Icon" className="socialIcon mx-1" />
+                            </a> 
+                            <a href="https://open.spotify.com/playlist/2xme35BDcRXUYAjIpV7xNI/" target="_blank" rel="noreferrer">
+                                <img src={spotifyIcon} alt="Spotify Icon" className="socialIcon mx-1"/>
                             </a>
                             <a href="https://www.linkedin.com/company/conexionag/" target="_blank" rel="noreferrer">
-                            <FontAwesomeIcon icon={faLinkedinIn} className="h3 mx-3 black link-hover"/>
+                                <img src={linkedInIcon} alt="LinkedIn icon" className="socialIcon mx-1"/>
                             </a>
                         </div>
                         <div className="col-md-6">

@@ -16,6 +16,7 @@ function Proyectos(){
                             <h2 className="xbold black">
                                 Branding, diseño y contenidos con foco en servicios digitales.
                             </h2>
+                            <br />
                         </div>
                     </div>
                      {TrabajosData.map((trabajo, key) => {   
