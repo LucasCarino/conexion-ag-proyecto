@@ -27,7 +27,7 @@ export default function Contacto() {
                         <ContactModal />
                 </ModalBody>
                 <ModalFooter>
-                    <Button onClick={toggle}>OK</Button>
+                    <Button onClick={toggle} className="button">CERRAR</Button>
                 </ModalFooter>
             </Modal>
             <div id="portfolio">

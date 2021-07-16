@@ -447,6 +447,8 @@ a {
 
 
 .button {
+  font-size: 12px;
+  font-weight: 700;
   width: 30%;
   cursor: pointer;
   background: black;
@@ -455,6 +457,9 @@ a {
   text-align: center;
   border-radius: 0;
   transition: all ease 0.3s;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .grow {
@@ -485,21 +490,27 @@ a {
 .dropdownMenu{
   background-color: black !important;
   border: none;
-  padding: 0px;
   border-radius: 0;
   transition: all ease 0.4s;
+  padding: 0px;
+  margin: 0px;
 }
 
 .dropdownItem:nth-child(3) {
   color: rgba(255, 0, 0, 0.713) !important;
+  margin: 5px 0px 0px 0px;
 }
 
 .dropdownItem {
-  padding: 10px 8px 10px 8px;
   font-size: 11px;
   font-weight: 600 !important;
   color: white !important;
   text-transform: uppercase;
+  padding: 22px 40px 22px 22px;
+  margin: 5px 0;
+}
+.dropdownItem:nth-child(1) {
+  margin: 0px 0px 5px 0px;
 }
 
 .dropdownItem:hover {
@@ -511,7 +522,7 @@ a {
 }
 
 .modalBody {
-  height: 68vh;
+  height: 58vh;
 }
 
 .img-modal {
@@ -529,16 +540,3 @@ a {
   border-radius: 50%;
   filter: invert(1)
 }
-
-/* .carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: red;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: red;
-} */
