@@ -6,6 +6,7 @@ import {
   TransitionGroup,
 } from 'react-transition-group';
 
+
 import ScrollToTop from './ScrollToTop'
 
 import Index from './components/Index';
@@ -52,7 +53,7 @@ class App extends Component {
               <Route component={Ideas} path='/ideas' />
               <Route component={Nosotros} path='/nosotros' />
               <Route component={Trabajos} path='/trabajos' />
-              <Route component={Casos} path='/casos' />
+              <Route component={Casos} path='/club-atletico-independiente' />
               <Route component={Contacto} path='/contacto' />
             </Switch>
           </CSSTransition>

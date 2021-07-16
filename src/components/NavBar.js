@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import image from '../assets/img/logo.png';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import '../assets/css/style.css';
 import * as ReactBootStrap from 'react-bootstrap';
+import {Dropdown, DropdownItem, DropdownMenu, DropdownToggle} from 'reactstrap';
 
 function NavBarComponent(){
     const [navBar, setNavBar] = useState(false);
@@ -12,6 +13,12 @@ function NavBarComponent(){
         } else {
             setNavBar(false)
         }
+    }
+
+    const [dropdown, setDropdown]=useState(false);
+
+    const toggleDropdown=()=>{
+        setDropdown(!dropdown);
     }
     window.addEventListener('scroll', changeNavBar);
     return(
@@ -35,11 +42,21 @@ function NavBarComponent(){
                         className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
                             <h6 className="navbar-font">trabajos</h6>
                         </NavLink>
-                        <NavLink to="/casos"
+                        <Dropdown isOpen={dropdown} toggle={toggleDropdown} className="m-3 text-body font-weight-bold text-uppercase nounderline black">
+                            <DropdownToggle activeClassName="active-section" className="botonDropdown" caret>
+                                CASOS
+                            </DropdownToggle>
+                            <DropdownMenu className="dropdownMenu">
+                                <DropdownItem className="dropdownItem" tag={Link} to="/club-atletico-independiente">→ club atlético independiente</DropdownItem>
+                                <DropdownItem className="dropdownItem" tag={Link} to="/trabajos/real-madrid">→ fundación real madrid méxico</DropdownItem>
+                                <DropdownItem className="dropdownItem" disabled>club manuel belgrano (soon)</DropdownItem>
+                            </DropdownMenu>
+                        </Dropdown>
+                        {/* <NavLink to="/casos"
                         activeClassName="active-section" 
                         className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">
                             <h6 className="navbar-font">casos</h6>
-                        </NavLink>
+                        </NavLink> */}
                         <NavLink to="/ideas" 
                         activeClassName="active-section"
                         className="m-3 text-body font-weight-bold text-uppercase nounderline black navbar-font">

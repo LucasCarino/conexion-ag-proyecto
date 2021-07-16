@@ -2,8 +2,10 @@
 @font-face { font-family: Muli; src: url('../fonts/Muli-VariableFont_wght.ttf'); } 
 
 * {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', sans-serif !important;
   color: black;
+  outline:none !important;
+  box-shadow: none !important;
 }
 
 p {
@@ -441,3 +443,102 @@ a {
 .socialIcon {
   width: 40px;
 }
+
+
+
+.button {
+  width: 30%;
+  cursor: pointer;
+  background: black;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  border-radius: 0;
+  transition: all ease 0.3s;
+}
+
+.grow {
+	display: inline-block;
+	transition-duration: .3;
+	transition-property: transform;
+  font-size: 12px;
+}
+
+.grow:hover{
+  transform: scale(1.1);
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.botonDropdown {
+  font-size: 12px;
+  font-weight: 800 !important;
+  color: black !important;
+  height: 33px;
+  background-color: transparent !important;
+  border: none;
+  padding: 0px;
+  padding-bottom: 7px;
+  border-radius: 0;
+}
+
+.dropdownMenu{
+  background-color: black !important;
+  border: none;
+  padding: 0px;
+  border-radius: 0;
+  transition: all ease 0.4s;
+}
+
+.dropdownItem:nth-child(3) {
+  color: rgba(255, 0, 0, 0.713) !important;
+}
+
+.dropdownItem {
+  padding: 10px 8px 10px 8px;
+  font-size: 11px;
+  font-weight: 600 !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.dropdownItem:hover {
+  background-color: #212529;
+}
+
+.modal-dialog {
+  max-width: 950px;
+}
+
+.modalBody {
+  height: 68vh;
+}
+
+.img-modal {
+  background-size: 100% 100%;
+  background-position: center;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  filter: invert(1)
+}
+
+/* .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */
