@@ -53,9 +53,9 @@ export default function Casos() {
                             <img src={cai2} alt="foto independiente" className="nosotros-img"/>
                         </div>
                         <div className="col-md-12 p-0 d-flex justify-content-start ml-4">
-                        <p className="small">
+                        {/* <p className="small">
                             2020. Efemérides de logros internacionales del club.
-                        </p>
+                        </p> */}
                         </div>
                         <div className="row mt-4">
                             <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
@@ -80,10 +80,10 @@ export default function Casos() {
                             </div>
                             <div></div>
                             <div className="col-md-12 p-0 d-flex justify-content-start ml-4">
-                                <p className="small">
+                                {/* <p className="small">
                                     <br />
                                     2020. Conmemoración del Día de la Futbolista Argentina.
-                                </p>
+                                </p> */}
                             </div>
                             <div className="col-md-12 padding-0">
                                 <img src= {cai6} className="w-100" alt="cai6" />

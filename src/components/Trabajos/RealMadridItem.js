@@ -42,9 +42,9 @@ export default function SmilesItem() {
                                 <div>
                                     <img src={portfolioMadrid1} alt="Imagen principal" className="img-fluid-2 p-1" />
                                 </div>
-                                <p className="small pl-3"> 
+                                {/* <p className="small pl-3"> 
                                     Contenidos de apoyo para redes sociales
-                                </p>
+                                </p> */}
                                 <div className="row mt-3 justify-content-center">
                                     <div className="col-md-8 padding-0">
                                         <h5 className="text-center">
@@ -61,9 +61,9 @@ export default function SmilesItem() {
                                     <img src={portfolioMadrid3} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Real Madrid" />
                                     <img src={portfolioMadrid4} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Real Madrid" />
                                 </div>
-                                <p className="small pl-3"> 
+                                {/* <p className="small pl-3"> 
                                     Call to action
-                                </p>
+                                </p> */}
                                 <div className="row mt-3 justify-content-center">
                                     <div className="col-md-8 padding-0">
                                         <h5 className="text-center">

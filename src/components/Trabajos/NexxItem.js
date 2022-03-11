@@ -38,9 +38,9 @@ export default function SmilesItem() {
                                 </div>
                                 <div className="col-md-12 pt-2">
                                     <img src={portfolioNexx1} alt="Imagen principal" className="img-fluid-2 w-100" />
-                                <p className="small"> 
+                                {/* <p className="small"> 
                                     Marca gráfica
-                                </p>
+                                </p> */}
                                 </div>
                                 <div className="col-md-4 padding-0 margin-top-90 d-none d-sm-block">
                                 </div>
@@ -68,9 +68,9 @@ export default function SmilesItem() {
                                 </div>
                                 <div>
                                     <img src={portfolioNexx3} className="mb-3 pl-5 img-fluid-2 w-100" alt="Porfolio Nexx" />
-                                    <p className="small pl-5"> 
+                                    {/* <p className="small pl-5"> 
                                         Presentaciones
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
                         </div>

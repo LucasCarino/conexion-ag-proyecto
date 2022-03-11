@@ -75,9 +75,9 @@ export default function SmilesItem() {
                                     <img src={portfolioSMC3605} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio SMC360" />
                                     <img src={portfolioSMC3606} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio SMC360" />
                                 </div>
-                                <p className="small ml-3"> 
+                                {/* <p className="small ml-3"> 
                                     Contenidos diario para redes sociales
-                                </p>
+                                </p> */}
                                 <div className="row mt-3 justify-content-center">
                                     <div className="col-md-8 padding-0">
                                         <h5 className="text-center">

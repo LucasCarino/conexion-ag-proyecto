@@ -42,9 +42,9 @@ export default function SmilesItem() {
                                 <div className="col-md-3 p-0 d-none d-sm-block w-75">
                                 </div>
                                 <div className="col-md-5 p-0 d-none d-sm-block w-75">
-                                    <p className="small text-right">
+                                    {/* <p className="small text-right">
                                         Portadas de la colección IDi
-                                    </p>
+                                    </p> */}
                                 </div>
 
                                 <div className="col-md-5 p-0 d-none d-sm-block w-75">
@@ -66,9 +66,9 @@ export default function SmilesItem() {
                                     <img src={portfolioUnraf2} className="p-1 img-fluid-2 w-100" alt="Porfolio Unraf" />
                                 </div>
                                 <div className="col-12">
-                                    <p className="small text-right">
+                                    {/* <p className="small text-right">
                                         Marca gráfica y portada de la colección Diseño
-                                    </p>
+                                    </p> */}
                                 </div>
                                 <div className="col-md-5 p-0 d-none d-sm-block w-75">
                                 </div>

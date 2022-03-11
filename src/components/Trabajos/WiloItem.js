@@ -70,9 +70,9 @@ export default function SmilesItem() {
                                     <img src={portfolioWilo2} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Wilo 2" />    
                                     <img src={portfolioWilo3} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Wilo 3" />
                                 </div>
-                                <p className="small pl-3"> 
+                                {/* <p className="small pl-3"> 
                                     Folleto Water Management & Industry 2019
-                                </p>
+                                </p> */}
                                 <img src={portfolioWilo4} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Wilo 4" />
                                 {/* <div className="row mt-3 justify-content-center">
                                     <div className="col-md-8 padding-0">
@@ -86,9 +86,9 @@ export default function SmilesItem() {
                                     </div>
                                 </div> */}
                                 <img src={portfolioWilo5} className="p-1 mb-3 img-fluid-2 w-100" alt="Porfolio Wilo 5" /> 
-                                <p className="small ml-3"> 
+                                {/* <p className="small ml-3"> 
                                     Presentación de productos Wilo en redes sociales
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>

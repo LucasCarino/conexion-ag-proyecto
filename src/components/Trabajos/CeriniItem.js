@@ -39,21 +39,21 @@ export default function SmilesItem() {
                             <div className="row">
                                 <img src={portfolioCerini2} alt="Imagen principal" className="mb-3 img-fluid-2 p-1" />
                             </div>
-                            <p className="small pl-3"> 
+                            {/* <p className="small pl-3"> 
                                 Aviso en medios
-                            </p>
+                            </p> */}
                             <div className="row">
                                 <img src={portfolioCerini3} className="mb-3 p-1 img-fluid-2" alt="Porfolio Cerini" />    
                             </div>
-                            <p className="small pl-3"> 
+                            {/* <p className="small pl-3"> 
                                 Marca principal 
-                            </p>
+                            </p> */}
                             <div className="row">
                                 <img src={portfolioCerini4} className="mb-3 p-1 img-fluid-2" alt="Porfolio Cerini" />
                             </div>
-                            <p className="small pl-3"> 
+                            {/* <p className="small pl-3"> 
                                 Aplicación en pantallas
-                            </p>
+                            </p> */}
                         </div>
                     </div>  
             </section>

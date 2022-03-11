@@ -55,9 +55,9 @@ export default function SmilesItem() {
                                     <img src={portfolioCregar3} className="mb-3 p-1 img-fluid-2" alt="Porfolio Cregar" />
                                     <img src={portfolioCregar4} className="mb-3 p-1 img-fluid-2" alt="Porfolio Cregar" />
                                 </div>
-                                <p className="small ml-3"> 
+                                {/* <p className="small ml-3"> 
                                     Gestión, diseño y contenidos del sitio institucional de Cregar
-                                </p>
+                                </p> */}
                                 <div>
                                     <img src={portfolioCregar5} className="mb-3 p-1 img-fluid-2" alt="Porfolio Cregar" />
                                 </div>
