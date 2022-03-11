@@ -49,7 +49,7 @@ function NavBarComponent(){
                             <DropdownMenu className="dropdownMenu">
                                 <DropdownItem className="dropdownItem" tag={Link} to="/club-atletico-independiente">→ club atlético independiente</DropdownItem>
                                 <DropdownItem className="dropdownItem" tag={Link} to="/trabajos/real-madrid">→ fundación real madrid méxico</DropdownItem>
-                                <DropdownItem className="dropdownItem" disabled>club manuel belgrano (soon)</DropdownItem>
+                                <DropdownItem className="dropdownItem" disabled>→ club manuel belgrano (soon)</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
                         {/* <NavLink to="/casos"

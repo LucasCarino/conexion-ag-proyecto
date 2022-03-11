@@ -8,6 +8,9 @@ import {
 import slider1 from '../../assets/img/slider-unraf-1.jpg';
 import slider2 from '../../assets/img/slider-unraf-2.jpg';
 import slider3 from '../../assets/img/slider-unraf-3.jpg';
+import slider4 from '../../assets/img/slider-unraf-4.jpg';
+import slider5 from '../../assets/img/slider-unraf-5.jpg';
+import slider6 from '../../assets/img/slider-unraf-6.jpg';
 
 const items = [
     {
@@ -19,6 +22,15 @@ const items = [
     {
       src: slider3,
     },
+    {
+      src: slider4,
+    },
+    {
+      src: slider5,
+    },
+    {
+      src: slider6,
+    }
   ];
   
   class CarouselComponent extends Component {

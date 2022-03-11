@@ -16,26 +16,35 @@ import promo5 from '../assets/img/5.jpg';
 import promo6 from '../assets/img/6.jpg';
 import promo7 from '../assets/img/7.jpg';
 import promo8 from '../assets/img/8.jpg';
+import promo9 from '../assets/img/9.jpg';
+import promo10 from '../assets/img/10.jpg';
+import promo11 from '../assets/img/11.png';
 
 
 const items = [
   {
-    src: promo1,
-    altText: 'Cultura de millas',
-    caption: 'Smiles',
-    link: "/trabajos/smiles"
+    src: promo9,
+    altText: 'Nuestra selección',
+    caption: 'AG Playlist 2021',
+    link: "https://open.spotify.com/playlist/74P5hzf1OIR0npXHfXg730"
+  },
+  {
+    src: promo10,
+    altText: 'Materiales para el mundo',
+    caption: 'Ceramica Industrial Avellaneda',
+    link: "/trabajos"
+  },
+  {
+    src: promo11,
+    altText: 'Planificación y estrategia',
+    caption: 'Midios',
+    link: "/trabajos"
   },
   {
     src: promo2,
     altText: 'Soluciones verdes',
     caption: 'Wilo',
     link: "/trabajos/wilo"
-  },
-  {
-    src: promo3,
-    altText: 'Marcas y contenidos',
-    caption: 'SMC360',
-    link: "/trabajos/smc360"
   },
   {
     src: promo4,
@@ -48,6 +57,18 @@ const items = [
     altText: 'Colección de ideas',
     caption: 'UNIVERSIDAD NACIONAL DE RAFAELA',
     link: "/trabajos/unraf"
+  },
+  {
+    src: promo1,
+    altText: 'Cultura de millas',
+    caption: 'Smiles',
+    link: "/trabajos/smiles"
+  },
+  {
+    src: promo3,
+    altText: 'Marcas y contenidos',
+    caption: 'SMC360',
+    link: "/trabajos/smc360"
   },
   {
     src: promo6,
@@ -116,7 +137,7 @@ class Index extends Component {
         key={item.src}
         >
           
-          <a href={item.link} className="index-link d-sm-none d-md-block" > Ver más → </a>
+          <a href={item.link} className="index-link position-absolute d-sm-none d-md-block" > Ver más → </a>
           <img src={item.src} alt={item.altText} className="img-slider"/>
           <div className="carousel-container">
             <CarouselCaption captionHeader={item.altText} className="carousel-caption"/>

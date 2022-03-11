@@ -156,13 +156,11 @@ hr {
 }
 
 #footer {
-  background: #FFF;
-    padding: 0 0 30px 0;
-    color: rgba(0, 0, 0, 0.600);
-    font-size: 14px;
-    border-top: solid 1px #000;
-    max-width: 90%;
-    margin: 50px auto 0;
+  color: rgba(0, 0, 0, 0.600);
+  font-size: 14px;
+  max-width: 100%;
+  margin: 100px auto 0;
+  background-color: #231f20;
 }
 
 #footer .copyright{
@@ -408,7 +406,6 @@ a {
 }
 
 .index-link {
-  position: absolute;
   left: 115px;
   bottom: 50px;
   cursor: pointer;
@@ -449,7 +446,7 @@ a {
 .button {
   font-size: 12px;
   font-weight: 700;
-  width: 30%;
+  width: 170px;
   cursor: pointer;
   background: black;
   text-decoration: none;
@@ -506,7 +503,7 @@ a {
   font-weight: 600 !important;
   color: white !important;
   text-transform: uppercase;
-  padding: 22px 40px 22px 22px;
+  padding: 22px 70px 22px 22px;
   margin: 5px 0;
 }
 .dropdownItem:nth-child(1) {
@@ -518,15 +515,11 @@ a {
 }
 
 .modal-dialog {
-  max-width: 950px;
-}
-
-.modalBody {
-  height: 58vh;
+  max-width: 674px;
 }
 
 .img-modal {
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
   background-position: center;
   object-fit: cover;
 }
@@ -539,4 +532,59 @@ a {
   background-size: 100%, 100%;
   border-radius: 50%;
   filter: invert(1)
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ls-1 {
+  letter-spacing: 0.3px;
+}
+
+.bg-dark {
+  background-color: #231f20 !important;
+}
+
+.footer-hr {
+  border-top: 1px solid #5e5b5c;
+}
+
+.pos-4 {
+  top: 4px
+}
+
+.h-94{
+  height: 94px;
+}
+
+.footer-link {
+  cursor: pointer;
+  color: white !important;
+  text-decoration: none !important;
+  transition: 1s;
+}
+
+.footer-link:hover{
+  color: rgb(145, 145, 145) !important;
+}
+
+.footer-link::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  color: white;
+  background-color: white;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .footer-link:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 }

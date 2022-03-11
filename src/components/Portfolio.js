@@ -7,6 +7,7 @@ import nosotros4 from '../assets/img/nosotros-4.jpg';
 import nosotros5 from '../assets/img/nosotros-5.jpg';
 import nosotros6 from '../assets/img/nosotros-6.jpg';
 import nosotros7 from '../assets/img/nosotros-7.jpg';
+import nosotros8 from '../assets/img/nosotros-8.jpg';
 
 function Portfolio(){
     return(
@@ -128,7 +129,7 @@ function Portfolio(){
                         <p className="mt-3">
                             —<span className="xbold black"> Candela Iglesias</span>
                         </p>
-                        <p className="mb-0 black">Líder de proyectos. Contenido gráfico y animado para distintas marcas, creatividad de identidades visuales.
+                        <p className="mb-0 black"><b>Líder de proyectos.</b> Contenido gráfico y animado para distintas marcas, creatividad de identidades visuales.
                         Forma parte del equipo de la agencia desde fines de 2019.
                         <br />
                             <i>
@@ -145,7 +146,7 @@ function Portfolio(){
                             —<span className="xbold black"> Kevin Hernández</span>
                         </p>
                         <p className="mb-0 black">
-                        Líder de proyectos. Soluciones creativas con foco en redes sociales y digital.
+                        <b>Líder de proyectos.</b> Soluciones creativas con foco en redes sociales y digital.
                         Nacido en Venezuela, tras un paso laboral por Perú, forma parte del equipo desde mediados de 2019.
                         <br />
                             <i>
@@ -159,7 +160,7 @@ function Portfolio(){
                             —<span className="xbold black"> Débora Jael Janavel</span>
                         </p>
                         <p className="black mb-0">
-                            Diseñadora UX, creatividad y Design Thinking. Forma parte del equipo desde mediados de 2020.
+                            <b>Diseñadora UX, creatividad y Design Thinking.</b> Forma parte del equipo desde mediados de 2020.
                             <br />
                             <i>
                                 “Mi objetivo está puesto en empatizar con clientes y usuarios, entender sus necesidades, idear estrategias y diseñar soluciones trabajando con equipos interdisciplinarios.”
@@ -175,7 +176,7 @@ function Portfolio(){
                             —<span className="xbold black"> Florencia Pak</span>
                         </p>
                         <p className="mb-0">
-                            Diseñadora especializada en editorial y entornos digitales. Forma parte del equipo de AG desde fines de 2020.
+                            <b>Diseñadora especializada en editorial y entornos digitales.</b> Forma parte del equipo de AG desde fines de 2020.
                             <br />
                             <i>
                                 “Proactividad, organización y responsabilidad son las herramientas personales para cualquier proyecto que desempeñe, atenta a cada etapa del trabajo.”
@@ -188,7 +189,7 @@ function Portfolio(){
                             —<span className="xbold black"> Pablo Faro</span>
                         </p>
                         <p className="mb-0">
-                            Director audiovisual, diseño de motion graphics y efectos. Ayuda a AG desde mediados de 2019.
+                            <b>Director audiovisual, diseño de motion graphics y efectos.</b> Ayuda a AG desde mediados de 2019.
                         <br />
                         <i>
                             “Más y mejores proyectos, aportando desde las herramientas y tecnologías de pantalla para animación de piezas promocionales”
@@ -204,14 +205,29 @@ function Portfolio(){
                             —<span className="xbold black"> Lucas Carino</span>
                         </p>
                         <p className="mb-0">
-                        Desarrollador web. Forma parte del equipo de AG desde fines de 2020.
+                        <b>Desarrollador web.</b> Forma parte del equipo de AG desde fines de 2020.
                             <br />
                             <i>
                             “Mi objetivo es desarrollar mis capacidades en los distintos lenguajes de programación y lograr los mejores resultados en las prácticas y proyectos asignados.”
                             </i>
                         </p>
                     </div>
+                    <div className="col-md-6">
+                        <img src={nosotros8} className="nosotros-img" alt="nosotros"/>
+                        <p className="mt-3">
+                            —<span className="xbold black"> Inés Gallo</span>
+                        </p>
+                        <p className="mb-0">
+                            <b>Diseñadora.</b> Forma parte del equipo de AG desde mediados de 2021.
+                            <br />
+                            <i>
+                                "La práctica diaria, las demandas del cliente y la dinámica digital es un incentivo y un desafío en mi formación profesional."
+                            </i>
+                        </p>
+                    </div>
                 </div>
+                {/* <div className="row"> */}
+                {/* </div> */}
         </section>
         </div>
     )
