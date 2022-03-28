@@ -87,4 +87,15 @@ export const TrabajosData = [
             img2: require("../assets/img/img-trabajo-1.jpg"),
             img3: require("../assets/img/img-trabajo-1.jpg"),
         },
+        {
+            name: "midios",
+            title: "midios",
+            subtitle: "Planificación y estrategia",
+            caption1: "Creamos NEXX, la agencia de estrategia digital 360° que acompaña a AG en su estructura de servicios. Un equipo interdisciplinario que cree en el valor de los datos y en medir para mejorar campañas de posicionamiento y performances.",
+            caption2: "NEXX es una consultoría de estrategia digital orientada 100% a performance: social listening, comunicación segmentada (orgánica y pautada), UX+UI y CRO (Conversion Rate Optimization) y campañas, entre otros servicios digitales.",
+            mainImg: require("../assets/img/img-trabajo-9.png"),
+            img1: require("../assets/img/img-trabajo-8.jpg"),
+            img2: require("../assets/img/img-trabajo-1.jpg"),
+            img3: require("../assets/img/img-trabajo-1.jpg"),
+        },
     ]

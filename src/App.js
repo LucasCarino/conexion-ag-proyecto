@@ -24,6 +24,7 @@ import UnrafItem from './components/Trabajos/UnrafItem';
 import RealMadridItem from './components/Trabajos/RealMadridItem';
 import CeriniItem from './components/Trabajos/CeriniItem';
 import NexxItem from './components/Trabajos/NexxItem';
+import MidiosItem from './components/Trabajos/MidiosItem';
 import NavBarComponent from './components/NavBar';
 
 class App extends Component {
@@ -48,6 +49,7 @@ class App extends Component {
               <Route component={RealMadridItem} path="/trabajos/real-madrid" />
               <Route component={CeriniItem} path="/trabajos/cerini" />
               <Route component={NexxItem} path="/trabajos/nexx" />
+              <Route component={MidiosItem} path="/trabajos/midios" />
               <Route component={Index} path='/' exact />
               <Route component={IdeasItem} path='/ideas/:slug' />
               <Route component={Ideas} path='/ideas' />

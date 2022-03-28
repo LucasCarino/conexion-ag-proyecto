@@ -514,6 +514,9 @@ a {
   background-color: #212529;
 }
 
+.logo {
+  padding-left: 3rem;
+}
 .modal-dialog {
   max-width: 674px;
 }
@@ -586,5 +589,17 @@ a {
     left: 0;
     right: auto;
     width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .logo {
+    padding-left: 0px;
+  }
+
+  .navbar-nav {
+    padding-right: 0px;
+    background-color: #fff;
   }
 }
