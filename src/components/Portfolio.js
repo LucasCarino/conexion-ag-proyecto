@@ -98,7 +98,9 @@ function Portfolio(){
                                 <br />
                                 Gráffica (España)
                                 <br />
-                                entre otros.
+                                <Link to="/trabajos/midios">
+                                    <u className="link-hover">Midios</u>
+                                </Link>
                             </p>
                         </div>
                     </div>

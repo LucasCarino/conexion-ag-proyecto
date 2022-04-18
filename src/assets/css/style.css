@@ -13,6 +13,7 @@ p {
   font-weight: 300 !important;
 }
 
+
 .carousel-caption:nth-child(1) {
   text-align: left;
   color: white !important;
@@ -133,6 +134,21 @@ hr {
   font-weight: 800;
 }
 
+.arrow {
+  width: 10rem;
+  height: 2.2rem;
+  transition: all .5s cubic-bezier(.075,.82,.165,1);
+}
+
+.arrow marker {
+  overflow: visible;
+}
+
+.arrow line {
+  stroke: #000;
+  stroke-width: 1.5;
+}
+
 .portfolio-details .portfolio-info p {
   font-size: 16px;
   font-weight: 400;
@@ -171,6 +187,11 @@ hr {
   width: 100%
 }
 
+.custom-lh {
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+
 .portfolio-info p {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -200,7 +221,11 @@ hr {
     object-fit: cover;
 }
 
-.post-img-div:hover .post-img {
+.ideas-article:hover .arrow {
+  width: 12rem; 
+}
+
+.ideas-article:hover .post-img {
   transform: scale(1.05);
   opacity: 0.9;
 }
