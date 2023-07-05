@@ -32,7 +32,7 @@ export default function SmilesItem() {
                                         </div>
                                         <br />
                                         <p className="pl-3">
-                                            Lanzada en mayo y junio de 2019 bajo el hashtag <b>UnaExperienciaParaTodaLaVida</b>#, la activación creada 
+                                            Lanzada en mayo y junio de 2019 bajo el hashtag <b>#UnaExperienciaParaTodaLaVida</b>, la activación creada 
                                             para las clínicas de Fundación Real Madrid México incluyó más de 100 piezas gráficas de 
                                             comunicación para redes sociales, pauta publicitaria, y señalética para campos de 
                                             deportes.
@@ -45,7 +45,7 @@ export default function SmilesItem() {
                                 {/* <p className="small pl-3"> 
                                     Contenidos de apoyo para redes sociales
                                 </p> */}
-                                <div className="row mt-3 justify-content-center">
+                                <div className="row mt-3 justify-content-center mb-5">
                                     <div className="col-md-8 padding-0">
                                         <h5 className="text-center">
                                             <b>

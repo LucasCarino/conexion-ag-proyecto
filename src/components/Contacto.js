@@ -66,32 +66,32 @@ export default function Contacto() {
                     <br />
                     <div className="row portfolio-container">
                         <div className="col-md-6">
-                            <div className="mb-5">
-                                <h4 className="black h5">
+                            <div className="portfolio-info mb-4">
+                                <p> 
                                     Vuelta de Obligado 2273
                                     <br />
                                     CPA 1428 CABA
                                     <br />
                                     <a href="tel:+5491141739703" className="black link-hover">+54 9 11 4173 9703</a>
                                     <br />
-                                    <a href="mailto:info@conexionag.com.ar" className="black link-hover">info@conexionag.com.ar</a>
-                                </h4>
+                                    <a href="mailto:info@conexionag.com.ar" className="black link-hover">ag@conexionag.com.ar</a>
+                                </p>
                             </div>
                             <div>
                                 <Button onClick={toggle1} className="button">→ VER FOTOS</Button>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="mb-5">
-                                <h4 className="black h5">
+                            <div className="portfolio-info mb-4">
+                                <p>
                                     Cabildo 2040 Piso 3
                                     <br />
                                     CPA 1428 CABA
                                     <br />
                                     <a href="tel:+5491141739703" className="black link-hover">+54 9 11 4173 9703</a>
                                     <br />
-                                    <a href="mailto:info@conexionag.com.ar" className="black link-hover">info@conexionag.com.ar</a>
-                                </h4>
+                                    <a href="mailto:info@conexionag.com.ar" className="black link-hover">ag@conexionag.com.ar</a>
+                                </p>
                             </div>
                             <div>
                                 <Button onClick={toggle2} className="button">→ VER FOTOS</Button>
